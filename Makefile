@@ -14,7 +14,9 @@ book:
 	jupyter-book build ./
 
 commit: book
-	ghp-import -n -p -f _build/html
+	#ghp-import -n -p -f _build/html
+	cp -r _build/html/* ../mikaem.github.io/
+	make -C ../mikaem.github.io
 
 cleanall:
 	jupyter-book clean ./ --all
