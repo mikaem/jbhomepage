@@ -13,6 +13,12 @@ clear:
 book:
 	jupyter-book build ./
 
+toipynb:
+	find ./content/ -name "*.md" -exec jupytext --to notebook {}
+
+tomd:
+	find ./content/ -name "*.ipynb" -exec jupytext --to myst {}
+
 commit: book
 	#ghp-import -n -p -f _build/html
 	cp -r _build/html/* ../mikaem.github.io/
