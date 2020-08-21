@@ -14,13 +14,18 @@ book:
 	jupyter-book build ./
 
 toipynb:
-	find ./content/ -name "*.md" -exec jupytext --to notebook {}
+	find ./content -name "*.md" -exec jupytext --to notebook {} \; -exec rm {} \;
+	find ./content -name "*.ipynb" -exec git add {} \;
+	git commit -a -m 'Move all sources to notebooks'
 
 tomd:
-	find ./content/ -name "*.ipynb" -exec jupytext --to myst {}
+	find ./content -name "*.ipynb" -exec jupytext --to myst {} \; -exec rm {} \;
+	find ./content -name "*.md" -exec git add {} \;
+	git commit -a -m 'Move all sources to myst markdown'
 
 commit: book
-	#ghp-import -n -p -f _build/html
+	ghp-import -n -p -f _build/html
+	rm -r ../mikaem.github.io/_sources
 	cp -r _build/html/* ../mikaem.github.io/
 	make -C ../mikaem.github.io
 
