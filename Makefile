@@ -23,6 +23,9 @@ tomd:
 	find ./content -name "*.md" -exec git add {} \;
 	git commit -a -m 'Move all sources to myst markdown'
 
+addmeta:
+	find ./content -name "*.ipynb" -exec python scripts/add_languagemetadata.py {} \;
+
 commit: book
 	ghp-import -n -p -f _build/html
 	rm -r ../mikaem.github.io/_sources
