@@ -243,26 +243,6 @@
 
         <!-- Launch buttons -->
 
-<div class="dropdown-buttons-trigger">
-    <button id="dropdown-buttons-trigger" class="btn btn-secondary topbarbtn"
-        aria-label="Launch interactive content"><i class="fas fa-rocket"></i></button>
-    <div class="dropdown-buttons">
-        
-        <a class="binder-button" href="https://mybinder.org/v2/gh/mikaem/jbhomepage/master?urlpath=tree/content/research/numerical.ipynb"><button type="button"
-                class="btn btn-secondary topbarbtn" title="Launch Binder" data-toggle="tooltip"
-                data-placement="left"><img class="binder-button-logo"
-                    src="../../_static/images/logo_binder.svg"
-                    alt="Interact on binder">Binder</button></a>
-        
-        
-        
-        <button type="button" class="btn btn-secondary topbarbtn"
-            onclick="initThebeSBT()" title="Launch Thebe" data-toggle="tooltip" data-placement="left"><i
-                class="fas fa-play"></i><span style="margin-left: .4em;">Live Code</span></button>
-        
-    </div>
-</div>
-
     </div>
 
     <!-- Table of contents -->
@@ -291,16 +271,19 @@
 <h1>Numerical methods<a class="headerlink" href="#numerical-methods" title="Permalink to this headline">¶</a></h1>
 <p>My (now finished) PhD student Miroslav Kuchta has been looking at numerical methods to solve
 saddle point systems arising from trace constraints coupling 2D and 1D domains,
-or 3D and 1D domains <a class="bibtex reference internal" href="#kuchta2016" id="id1">[KNV+16]</a><a class="bibtex reference internal" href="#kuchta2016preconditioning" id="id2">[KMM18b]</a><span class="bibtex" id="id3">[cite kuchta15]</span>.</p>
+or 3D and 1D domains <a class="bibtex reference internal" href="#kuchta2016" id="id1">[KNV+16]</a><a class="bibtex reference internal" href="#kuchta2016preconditioning" id="id2">[KMM18b]</a><a class="bibtex reference internal" href="#kuchta15" id="id3">[KMM15]</a>.</p>
 <p>We have also been studying the singular Neumann problem of linear elasticity
 <a class="bibtex reference internal" href="#kuchta2016singular" id="id4">[KMM18a]</a>.
 Four different formulations of the problem have been analyzed and mesh independent preconditioners established for the resulting linear systems within the framework of operator preconditioning. We have proposed a preconditioner for the (singular) mixed formulation of linear elasticity, that is robust with respect to the material parameters. Using an orthonormal basis of the space of rigid motions, discrete projection operators have been derived and employed in a modification to the conjugate gradients method to ensure optimal error convergence of the solution.</p>
-<p>With colleagues at the Extreme Computing Research Center (ECRC), King Abdullah University of Science and Technology (KAUST), we have been using <a class="reference external" href="https://github.com/spectralDNS">spectralDNS</a> to investigate time integration of Fourier pseudospectral Direct Numerical Simulations <a class="bibtex reference internal" href="#ketcheson2020" id="id5">[KMPS20]</a>. We investigate the use of higher‐order Runge‐Kutta pairs and automatic step size control based on local error estimation. We find that the fifth‐order accurate Runge‐Kutta pair of Bogacki and Shampine gives much greater accuracy at a significantly reduced computational cost.</p>
+<p>With colleagues at the Extreme Computing Research Center (ECRC), King Abdullah University of Science and Technology (KAUST), we have been using <a class="reference external" href="https://github.com/spectralDNS">spectralDNS</a> to investigate time integration of Fourier pseudospectral Direct Numerical Simulations <a class="bibtex reference internal" href="spectraldns.html#ketcheson2020" id="id5">[KMPS20]</a>. We investigate the use of higher‐order Runge‐Kutta pairs and automatic step size control based on local error estimation. We find that the fifth‐order accurate Runge‐Kutta pair of Bogacki and Shampine gives much greater accuracy at a significantly reduced computational cost.</p>
 <div class="section" id="references">
 <h2>References<a class="headerlink" href="#references" title="Permalink to this headline">¶</a></h2>
 <p id="bibtex-bibliography-content/research/numerical-0"><dl class="citation">
 <dt class="bibtex label" id="ketcheson2020"><span class="brackets"><a class="fn-backref" href="#id5">KMPS20</a></span></dt>
 <dd><p>David I. Ketcheson, Mikael Mortensen, Matteo Parsani, and Nathanael Schilling. More efficient time integration for fourier pseudospectral dns of incompressible turbulence. <em>International Journal for Numerical Methods in Fluids</em>, 92(2):79–93, 2020. URL: <a class="reference external" href="https://onlinelibrary.wiley.com/doi/abs/10.1002/fld.4773">https://onlinelibrary.wiley.com/doi/abs/10.1002/fld.4773</a>, <a class="reference external" href="https://arxiv.org/abs/https://onlinelibrary.wiley.com/doi/pdf/10.1002/fld.4773">arXiv:https://onlinelibrary.wiley.com/doi/pdf/10.1002/fld.4773</a>, <a class="reference external" href="https://doi.org/10.1002/fld.4773">doi:10.1002/fld.4773</a>.</p>
+</dd>
+<dt class="bibtex label" id="kuchta15"><span class="brackets"><a class="fn-backref" href="#id3">KMM15</a></span></dt>
+<dd><p>M. Kuchta, K. A. Mardal, and M. Mortensen. Characterization of the space of rigid motions in arbitrary domains. In <em>In Bjørn Helge Skallerud and Helge Ingolf Andersson (ed.), MekIT’15 - Eight national conference on Computational Mechanics. International Center for Numerical Methods in Engineering (CIMNE)</em>, 259–274. 2015.</p>
 </dd>
 <dt class="bibtex label" id="kuchta2016singular"><span class="brackets"><a class="fn-backref" href="#id4">KMM18a</a></span></dt>
 <dd><p>Miroslav Kuchta, Kent-Andre Mardal, and Mikael Mortensen. On the singular neumann problem in linear elasticity. <em>Numerical Linear Algebra with Applications</em>, 2018. URL: <a class="reference external" href="https://arxiv.org/abs/1609.09425">https://arxiv.org/abs/1609.09425</a>.</p>
