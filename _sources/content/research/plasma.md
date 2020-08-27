@@ -1,4 +1,3 @@
-
 # 4DSpace
 
 In the strategic research initiative [4DSpace](http://www.mn.uio.no/fysikk/english/research/projects/4dspace/) we study
@@ -30,8 +29,8 @@ Kelvin-Helmholtz instabilities in stratified and unstratified shear layers.
 dust particle in magnetised plasmas. In {cite}`Darian_2019` we use simulations to study
 spherical and cylindrical Langmuir probes in non-Maxwellian plasmas, whereas
 {cite}`marholm2019` investigates the response of miniaturized fixed-bias multi-needle
-Langmuir probes on a CubeSat satellite. In {cite}`Marholm2020` we describe a novel numerical method 
-that incorporates electrically conducting objects into particle-in-cell simulations of electrostatic plasma. The method allows multiple objects connected by voltage and current sources in an arbitrary circuit topology. 
+Langmuir probes on a CubeSat satellite. In {cite}`Marholm2020` we describe a novel numerical method
+that incorporates electrically conducting objects into particle-in-cell simulations of electrostatic plasma. The method allows multiple objects connected by voltage and current sources in an arbitrary circuit topology.
 
 ## References
 
@@ -39,6 +38,6 @@ that incorporates electrically conducting objects into particle-in-cell simulati
 :filter: docname in docnames
 ```
 
-```{code-cell} markdown
+```{code-cell} ipython3
 
 ```
