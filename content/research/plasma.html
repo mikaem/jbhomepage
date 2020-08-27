@@ -243,6 +243,26 @@
 
         <!-- Launch buttons -->
 
+<div class="dropdown-buttons-trigger">
+    <button id="dropdown-buttons-trigger" class="btn btn-secondary topbarbtn"
+        aria-label="Launch interactive content"><i class="fas fa-rocket"></i></button>
+    <div class="dropdown-buttons">
+        
+        <a class="binder-button" href="https://mybinder.org/v2/gh/mikaem/jbhomepage/master?urlpath=tree/content/research/plasma.ipynb"><button type="button"
+                class="btn btn-secondary topbarbtn" title="Launch Binder" data-toggle="tooltip"
+                data-placement="left"><img class="binder-button-logo"
+                    src="../../_static/images/logo_binder.svg"
+                    alt="Interact on binder">Binder</button></a>
+        
+        
+        
+        <button type="button" class="btn btn-secondary topbarbtn"
+            onclick="initThebeSBT()" title="Launch Thebe" data-toggle="tooltip" data-placement="left"><i
+                class="fas fa-play"></i><span style="margin-left: .4em;">Live Code</span></button>
+        
+    </div>
+</div>
+
     </div>
 
     <!-- Table of contents -->
@@ -290,7 +310,8 @@ Kelvin-Helmholtz instabilities in stratified and unstratified shear layers.</p>
 dust particle in magnetised plasmas. In <a class="bibtex reference internal" href="#darian-2019" id="id6">[DMMM19]</a> we use simulations to study
 spherical and cylindrical Langmuir probes in non-Maxwellian plasmas, whereas
 <a class="bibtex reference internal" href="#marholm2019" id="id7">[MarholmMarchandDarian+19]</a> investigates the response of miniaturized fixed-bias multi-needle
-Langmuir probes on a CubeSat satellite.</p>
+Langmuir probes on a CubeSat satellite. In <a class="bibtex reference internal" href="#marholm2020" id="id8">[MarholmDarianMortensen+20]</a> we describe a novel numerical method
+that incorporates electrically conducting objects into particle-in-cell simulations of electrostatic plasma. The method allows multiple objects connected by voltage and current sources in an arbitrary circuit topology.</p>
 <div class="section" id="references">
 <h2>References<a class="headerlink" href="#references" title="Permalink to this headline">¶</a></h2>
 <p id="bibtex-bibliography-content/research/plasma-0"><dl class="citation">
@@ -311,6 +332,9 @@ Langmuir probes on a CubeSat satellite.</p>
 </dd>
 <dt class="bibtex label" id="miloch2018"><span class="brackets"><a class="fn-backref" href="#id3">MJD+18</a></span></dt>
 <dd><p>W J Miloch, H Jung, D Darian, F Greiner, M Mortensen, and A Piel. Dynamic ion shadows behind finite-sized objects in collisionless magnetized plasma flows. <em>New journal of Physics</em>, 20(7):073027, jul 2018. <a class="reference external" href="https://doi.org/10.1088/1367-2630/aad066">doi:10.1088/1367-2630/aad066</a>.</p>
+</dd>
+<dt class="bibtex label" id="marholm2020"><span class="brackets"><a class="fn-backref" href="#id8">MarholmDarianMortensen+20</a></span></dt>
+<dd><p>S. Marholm, D. Darian, M. Mortensen, R. Marchand, and W. J. Miloch. A novel method for circuits of perfect electric conductors in unstructured particle-in-cell plasma–object interaction simulations. <em>IEEE Transactions on Plasma Science</em>, 48(8):2856–2872, 2020.</p>
 </dd>
 <dt class="bibtex label" id="marholm2019"><span class="brackets"><a class="fn-backref" href="#id7">MarholmMarchandDarian+19</a></span></dt>
 <dd><p>S. Marholm, R. Marchand, D. Darian, W. J. Miloch, and M. Mortensen. Impact of miniaturized fixed-bias multineedle langmuir probes on cubesats. <em>IEEE Transactions on Plasma Science</em>, pages 1–9, 2019. <a class="reference external" href="https://doi.org/10.1109/TPS.2019.2915810">doi:10.1109/TPS.2019.2915810</a>.</p>
