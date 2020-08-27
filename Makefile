@@ -23,7 +23,7 @@ tomd:
 	find ./content -name "*.md" -exec git add {} \;
 	git commit -a -m 'Move all sources to myst markdown'
 
-addmeta:
+addlanguage:
 	find ./content -name "*.ipynb" -exec python scripts/add_languagemetadata.py {} \;
 
 commit: book
