@@ -37,7 +37,3 @@ that incorporates electrically conducting objects into particle-in-cell simulati
 ```{bibliography} ../../references.bib
 :filter: docname in docnames
 ```
-
-```{code-cell} ipython3
-
-```

@@ -14,11 +14,15 @@ Current and previous students of mine are listed below.
 
   * Diako Darian  (2014 - 2019) Plasma-object interactions
 
-  * Tormod Landet  (2014 - 2020) Discontinuous Galerkin methods for multiphase flow
+  * Tormod Landet  (2014 - 2020) [Discontinuous Galerkin methods for multiphase flow](https://www.duo.uio.no/handle/10852/80602)
 
   * Sigvald Marholm (2014 - 2019) [The Unstructured Particle-In-Cell Method with Applications for Objects in Ionospheric Plasmas](https://www.duo.uio.no/handle/10852/73029)
 
-  * Christopher Friedemann (2016 - )
+  * Christopher Friedemann (2016 - 2021) [Simulations of two-phase gas-liquid flow in concentric and eccentric annuli at 0 to 90 degrees inclination using the volume of fluid method](https://www.duo.uio.no/handle/10852/84056)
+
+  * Thomas Zengaffinen-Morris (2017-2021) [Influence of Submarine Landslide Failure and Flow on Tsunami Genesis](https://www.mn.uio.no/math/english/research/news-and-events/events/disputations/2021/Zengaffinen-Morris.html)
+
+  * Matthias Rauter (2017 - )
 
   * Anna Pitterskaya (2019 - )
 
@@ -62,4 +66,6 @@ Current and previous students of mine are listed below.
 
   19. Henrik Kjeldsberg Aasen [Investigating the Interaction Between Morphology of the Anterior Bend and Aneurysm Initiation](http://urn.nb.no/URN:NBN:no-65950) (2016-2018)
 
-  20. Trym Erik Nielsen (2018 - )
+  20. Trym Erik Nielsen [Photoemissive charging of the Mercury Magnetospheric Orbiter studied by means of 3D Particle-In-Cell simulations](https://www.duo.uio.no/handle/10852/79678) (2018 - 2020)
+
+  21. Kei Yamamoto *Investigation of flow through helically coiled pipes* (2020 - )

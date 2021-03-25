@@ -25,23 +25,25 @@ often as possible in teaching and scientific computing.
 
 ## Recent highlights
 
-  * 12/8 2020 [A Novel Method for Circuits of Perfect Electric Conductors in Unstructured Particle-in-Cell Plasma–Object Interaction Simulations](https://ieeexplore.ieee.org/document/9153009) by Marholm S, Darian D, Mortensen M, Miloch W J and Marchand R published in IEEE Transactions on Plasma Science.
+  * 18/1 2021 [Two-phase co-current flow simulations using periodic boundary conditions in horizontal, 4, 10 and 90° inclined eccentric annulus, flow prediction using a modified interFoam solver and comparison with experimental results](https://doi.org/10.1016/j.ijheatfluidflow.2020.108754) by Friedemann C, Mortensen M and Nossen J published in International Journal of Heat and Fluid Flow.
 
-  * 5/3 2020 [Two-phase flow simulations at 0-4 degrees inclination in an eccentric annulus](https://arxiv.org/pdf/2001.05836.pdf) by Friedemann C, Mortensen M and Nossen J, accepted for publication in International Journal of Heat and Fluid Flow.
+  * 12/8 2020 [A Novel Method for Circuits of Perfect Electric Conductors in Unstructured Particle-in-Cell Plasma–Object Interaction Simulations](https://ieeexplore.ieee.org/document/9153009) by Marholm S, Darian D, Mortensen M, Miloch W J and Marchand R published in IEEE Transactions on Plasma Science.
 
   * 9/10 2019 [Slope limiting the velocity field in a discontinuous Galerkin divergence-free two-phase flow solver](https://arxiv.org/abs/1803.06976) by Landet T, Mardal K-A and Mortensen M, accepted for publication in Computers and Fluids
 
   * 25/9 2019 [More efficient time integration for Fourier pseudo-spectral DNS of incompressible turbulence](https://arxiv.org/abs/1810.10197) by Schilling N, Parsani M, Ketcheson D-I, accepted for publication by International Journal for Numerical Methods in Fluids
-
-  * 1/7 2019 [Gas-liquid slug flow in a horizontal concentric annulus, a comparison of numerical simulations and experimental data](https://doi.org/10.1016/j.ijheatfluidflow.2019.108437) by Friedemann C, Mortensen M and Nossen J, accepted for publication in International Journal of Heat and Fluid Flow.
-
-  * 5/6 2019 [Theory and simulations of spherical and cylindrical Langmuir probes in non-Maxwellian plasmas](https://iopscience.iop.org/article/10.1088/1361-6587/ab27ff/meta) by Darian, Marholm, Mortensen and Miloch accepted for publication in Plasma Physics and Controlled Fusion.
 
   * 20/2 2019 [Fast parallel multidimensional FFT using advanced MPI](https://arxiv.org/abs/1804.09536) by Lisandro Dalcin, Mikael Mortensen and David E. Keyes, accepted for publication by [The Journal of Parallel and Distributed Computing](https://www.journals.elsevier.com/journal-of-parallel-and-distributed-computing).
 
 +++
 
 ## News
+
+  * 17/2 2021 Chris Friedemann defended his PhD thesis!
+
+  * 18/1 2021 [Two-phase co-current flow simulations using periodic boundary conditions in horizontal, 4, 10 and 90° inclined eccentric annulus, flow prediction using a modified interFoam solver and comparison with experimental results](https://doi.org/10.1016/j.ijheatfluidflow.2020.108754) by Friedemann C, Mortensen M and Nossen J published in International Journal of Heat and Fluid Flow.
+
+  * 10/9 2020 Trym Erik Nielsen defended his master thesis as the first cross disciplinary thesis between the physics and mathematics departments, under the 4DSpace umbrella.
 
   * 22/8 2020 Shenfun demos are now available as [executable, interactive jupyter books](https://mikaem.github.io/shenfun-demos)
 
