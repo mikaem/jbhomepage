@@ -25,13 +25,13 @@ often as possible in teaching and scientific computing.
 
 ## Recent highlights
 
-  * 21/6 2021 Japan-Norway Partnership for Computing in Space Science receives 10 MNOK in funding from the Research Council of Norwegian!
+  * 21/6 2021 Japan-Norway Partnership for Computing in Space Science receives 10 MNOK in funding from the Research Council of Norway!
 
   * 18/1 2021 [Two-phase co-current flow simulations using periodic boundary conditions in horizontal, 4, 10 and 90° inclined eccentric annulus, flow prediction using a modified interFoam solver and comparison with experimental results](https://doi.org/10.1016/j.ijheatfluidflow.2020.108754) by Friedemann C, Mortensen M and Nossen J published in International Journal of Heat and Fluid Flow.
 
   * 12/8 2020 [A Novel Method for Circuits of Perfect Electric Conductors in Unstructured Particle-in-Cell Plasma–Object Interaction Simulations](https://ieeexplore.ieee.org/document/9153009) by Marholm S, Darian D, Mortensen M, Miloch W J and Marchand R published in IEEE Transactions on Plasma Science.
 
-  * 25/9 2019 [More efficient time integration for Fourier pseudo-spectral DNS of incompressible turbulence](https://arxiv.org/abs/1810.10197) by Schilling N, Parsani M, Ketcheson D-I, accepted for publication by International Journal for Numerical Methods in Fluids
+  * 25/9 2019 [More efficient time integration for Fourier pseudo-spectral DNS of incompressible turbulence](https://arxiv.org/abs/1810.10197) by Ketcheson D-I, Mortensen M, Parsani M and Schilling N accepted for publication by International Journal for Numerical Methods in Fluids
 
   * 20/2 2019 [Fast parallel multidimensional FFT using advanced MPI](https://arxiv.org/abs/1804.09536) by Lisandro Dalcin, Mikael Mortensen and David E. Keyes, accepted for publication by [The Journal of Parallel and Distributed Computing](https://www.journals.elsevier.com/journal-of-parallel-and-distributed-computing).
 
@@ -39,7 +39,7 @@ often as possible in teaching and scientific computing.
 
 ## News
 
-  * 21/6 2021 Japan-Norway Partnership for Computing in Space Science receives 10 MNOK in funding from the Research Council of Norwegian!
+  * 21/6 2021 Japan-Norway Partnership for Computing in Space Science receives 10 MNOK in funding from the Research Council of Norway!
 
   * 9/6 2021 [Matthias Rauter](https://www.mn.uio.no/math/english/research/news-and-events/events/disputations/2021/Rauter.html) defended his PhD thesis!
 
@@ -71,7 +71,7 @@ often as possible in teaching and scientific computing.
 
   * 9/10 2019 [Slope limiting the velocity field in a discontinuous Galerkin divergence-free two-phase flow solver](https://arxiv.org/abs/1803.06976) by Landet T, Mardal K-A and Mortensen M, accepted for publication in Computers and Fluids
 
-  * 25/9 2019 [More efficient time integration for Fourier pseudo-spectral DNS of incompressible turbulence](https://arxiv.org/abs/1810.10197) by Schilling N, Parsani M, Ketcheson D-I, accepted for publication by International Journal for Numerical Methods in Fluids
+  * 25/9 2019 [More efficient time integration for Fourier pseudo-spectral DNS of incompressible turbulence](https://arxiv.org/abs/1810.10197) by Ketcheson D-I, Mortensen M, Parsani M and Schilling N, accepted for publication by International Journal for Numerical Methods in Fluids
 
   * 16/9 2019 [10th Kobe-Oslo workshop on numerical simulations of rocket-plasma interactions](https://www.mn.uio.no/fysikk/english/research/projects/4dspace/education/04_japan-norway.html) started in Oslo, Norway.
 
