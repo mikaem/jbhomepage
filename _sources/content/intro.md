@@ -39,6 +39,10 @@ often as possible in teaching and scientific computing.
 
 ## News
 
+  * 21/6 2021 Japan-Norway Partnership for Computing in Space Science receives 10 MNOK in funding from the Research Council of Norwegian!
+
+  * [Matthias Rauter](https://www.mn.uio.no/math/english/research/news-and-events/events/disputations/2021/Rauter.html) defended his PhD thesis!
+
   * 17/2 2021 Chris Friedemann defended his PhD thesis!
 
   * 18/1 2021 [Two-phase co-current flow simulations using periodic boundary conditions in horizontal, 4, 10 and 90° inclined eccentric annulus, flow prediction using a modified interFoam solver and comparison with experimental results](https://doi.org/10.1016/j.ijheatfluidflow.2020.108754) by Friedemann C, Mortensen M and Nossen J published in International Journal of Heat and Fluid Flow.

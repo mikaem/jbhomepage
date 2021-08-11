@@ -22,9 +22,11 @@ Current and previous students of mine are listed below.
 
   * Thomas Zengaffinen-Morris (2017-2021) [Influence of Submarine Landslide Failure and Flow on Tsunami Genesis](https://www.mn.uio.no/math/english/research/news-and-events/events/disputations/2021/Zengaffinen-Morris.html)
 
-  * Matthias Rauter (2017 - )
+  * Matthias Rauter (2017 - 2021) Multiphase Navier-Stokes Equations applied to landslide tsunamis: Numerical simulations of granular flows and their interaction with water bodies
 
   * Anna Pitterskaya (2019 - )
+
+  * Henrik Kjeldsberg Aasen (2020 - )
 
 ## Master students
 
