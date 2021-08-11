@@ -41,7 +41,7 @@ often as possible in teaching and scientific computing.
 
   * 21/6 2021 Japan-Norway Partnership for Computing in Space Science receives 10 MNOK in funding from the Research Council of Norwegian!
 
-  * [Matthias Rauter](https://www.mn.uio.no/math/english/research/news-and-events/events/disputations/2021/Rauter.html) defended his PhD thesis!
+  * 9/6 2021 [Matthias Rauter](https://www.mn.uio.no/math/english/research/news-and-events/events/disputations/2021/Rauter.html) defended his PhD thesis!
 
   * 17/2 2021 Chris Friedemann defended his PhD thesis!
 
