@@ -6,7 +6,7 @@ instabilities and turbulence in the polar ionosphere with an integrated, multi-s
 Two of my previous PhD students *Diako Darian* and [Sigvald Marholm](http://www.mn.uio.no/fysikk/english/?vrtx=person-view&uid=sigvaldm) have both been
 working under the 4DSpace umbrella, that altogether count approximately 40
 people. We are focusing on developing unstructured Particle In Cell (PIC) codes with finite
-element and Lagrangian particle methods, within the FEniCS framework. See {cite}`marholm2018` and the Particles in UNstructured Cells code [PUNC](https://github.com/puncproject).
+element and Lagrangian particle methods, within the FEniCS framework. See {cite}`Marholm2020` and the Particles in UNstructured Cells code [PUNC](https://github.com/puncproject).
 
 ```{sidebar} Kelvin Helmholtz
 
