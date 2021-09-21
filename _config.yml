@@ -1,7 +1,7 @@
 # Book settings
 title                       : Professor Mikael Mortensen  # The title of the book. Will be placed in the left navbar.
 author                      : Mikael Mortensen  # The author of the book
-copyright                   : "2020"  # Copyright year to be placed in the footer
+copyright                   : "2021"  # Copyright year to be placed in the footer
 logo                        : "content/images/portrait_large.jpg"
 exclude_patterns            : []  # Patterns to skip when building the book. Can be glob-style (e.g. "*skip.ipynb")
 
@@ -25,6 +25,8 @@ html:
   home_page_in_navbar       : true  # Whether to include your home page in the left Navigation Bar
   baseurl                   : ""  # The base URL where your book will be hosted. Used for creating image previews and social links. e.g.: https://mypage.com/mybook/
 
+bibtex_bibfiles:
+    - references.bib
 #######################################################################################
 # Launch button settings
 launch_buttons:
@@ -52,5 +54,5 @@ sphinx:
     latex_elements:
       {"preamble": "\\usepackage{cancel}"}
     mathjax_path: 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-AMS_CHTML'
-
+    bibtex_reference_style: author_year
 

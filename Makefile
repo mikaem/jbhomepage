@@ -28,7 +28,7 @@ addlanguage:
 
 commit: book
 	ghp-import -n -p -f _build/html
-	rm -r ../mikaem.github.io/_sources
+	#rm -r ../mikaem.github.io/_sources
 	cp -r _build/html/* ../mikaem.github.io/
 	make -C ../mikaem.github.io
 

@@ -17,7 +17,7 @@ that were working on two widely different aspects of two-phase flows.
 Christopher is involved in the [Annulus flow](https://prosjektbanken.forskningsradet.no/#/project/NFR/255481/Sprak=en) project headed by [IFE](https://www.ife.no) and in collaboration with
 Imperial College London. The project is sponsored by the Norwegian Research
 Council. We use OpenFOAM to simulate and understand two-phase flows in annulus
-configurations {cite}`chris2017,friedemann_2019`, i.e., flow between an inner and outer pipe.
+configurations {cite}`chris2017,friedemann_2019,friedemann2021`, i.e., flow between an inner and outer pipe.
 
 In Tormod's project we are investigating finite element methods for use with two-phase flows. We
 are looking into slope limiting of the velocity field in a discontinuous

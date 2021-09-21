@@ -1,26 +1,23 @@
-- file: content/intro
-
-- part:
+format: jb-book
+root: content/intro
+parts:
+- chapters:
+  - file: content/research/research
+  - file: content/cv
+  - file: content/contact
+- caption: Research
   chapters:
-    - file: content/research/research
-    - file: content/cv
-    - file: content/contact
-
-- part: Research
+  - file: content/research/spectraldns
+  - file: content/research/biomedical
+  - file: content/research/cmc
+  - file: content/research/plasma
+  - file: content/research/numerical
+  - file: content/research/multiphase
+- caption: Resources
   chapters:
-    - file: content/research/spectraldns
-    - file: content/research/biomedical
-    - file: content/research/cmc
-    - file: content/research/plasma
-    - file: content/research/numerical
-    - file: content/research/multiphase
-
-- part: Resources
+  - file: content/resources/codes
+- caption: Teaching
   chapters:
-    - file: content/resources/codes
-
-- part: Teaching
-  chapters:
-    - file: content/teaching/teaching
-    - file: content/teaching/japan
-    - file: content/teaching/students
+  - file: content/teaching/teaching
+  - file: content/teaching/japan
+  - file: content/teaching/students
