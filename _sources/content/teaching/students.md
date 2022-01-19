@@ -71,3 +71,8 @@ Current and previous students of mine are listed below.
   20. Trym Erik Nielsen [Photoemissive charging of the Mercury Magnetospheric Orbiter studied by means of 3D Particle-In-Cell simulations](https://www.duo.uio.no/handle/10852/79678) (2018 - 2020)
 
   21. Kei Yamamoto *Investigation of flow through helically coiled pipes* (2020 - )
+
+  22. Jacob Henrik HudtWalcker *Large Eddy Simulations of flow through helically coiled pipes* (2022 - )
+
+  23. Jacob T S Langmoen *Investigation of stability and wake for turbulent flow past a cybershape carbon* (2022 - )
+
