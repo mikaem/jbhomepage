@@ -25,6 +25,8 @@ often as possible in teaching and scientific computing.
 
 ## Recent highlights
 
+  * 15/12 2021 I presented Shenfun on zoom for Prof. Haijun Yu's research group at the [Institute of Computational Mathematics and Scientific/Engineering Computing](http://icmsec.cc.ac.cn), University of the Chinese Academy of Sciences
+
   * 21/6 2021 Japan-Norway Partnership for Computing in Space Science receives 10 MNOK in funding from the Research Council of Norway!
 
   * 18/1 2021 [Two-phase co-current flow simulations using periodic boundary conditions in horizontal, 4, 10 and 90° inclined eccentric annulus, flow prediction using a modified interFoam solver and comparison with experimental results](https://doi.org/10.1016/j.ijheatfluidflow.2020.108754) by Friedemann C, Mortensen M and Nossen J published in International Journal of Heat and Fluid Flow.
@@ -38,6 +40,14 @@ often as possible in teaching and scientific computing.
 +++
 
 ## News
+
+  * 13/6 2022 Kei Yamamoto defended his master thesis *Numerical Investigation of Turbulent Flow in Helically Coiled Pipes*
+
+  * 1/6 2022 Sverre Vinje defended his master thesis *Modeling the effect of slits on rowing blades*
+
+  * 14/2 2022 We are back to physical teaching at the University of Oslo!
+
+  * 15/12 2021 I presented Shenfun on zoom for Prof. Haijun Yu's research group at the [Institute of Computational Mathematics and Scientific/Engineering Computing](http://icmsec.cc.ac.cn), University of the Chinese Academy of Sciences
 
   * 21/6 2021 Japan-Norway Partnership for Computing in Space Science receives 10 MNOK in funding from the Research Council of Norway!
 
