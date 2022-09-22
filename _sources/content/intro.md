@@ -25,6 +25,8 @@ often as possible in teaching and scientific computing.
 
 ## Recent highlights
 
+  * 30/8 2022 [A generic and strictly banded spectral Petrov-Galerkin method for differential equations with polynomial coefficients](https://github.com/spectralDNS/PG-paper-2022/blob/main/PGpaper.pdf) by Mikael Mortensen was accepted for publication by SIAM Journal on Scientific Computing
+
   * 15/12 2021 I presented Shenfun on zoom for Prof. Haijun Yu's research group at the [Institute of Computational Mathematics and Scientific/Engineering Computing](http://icmsec.cc.ac.cn), University of the Chinese Academy of Sciences
 
   * 21/6 2021 Japan-Norway Partnership for Computing in Space Science receives 10 MNOK in funding from the Research Council of Norway!
@@ -33,13 +35,13 @@ often as possible in teaching and scientific computing.
 
   * 12/8 2020 [A Novel Method for Circuits of Perfect Electric Conductors in Unstructured Particle-in-Cell Plasma–Object Interaction Simulations](https://ieeexplore.ieee.org/document/9153009) by Marholm S, Darian D, Mortensen M, Miloch W J and Marchand R published in IEEE Transactions on Plasma Science.
 
-  * 25/9 2019 [More efficient time integration for Fourier pseudo-spectral DNS of incompressible turbulence](https://arxiv.org/abs/1810.10197) by Ketcheson D-I, Mortensen M, Parsani M and Schilling N accepted for publication by International Journal for Numerical Methods in Fluids
-
   * 20/2 2019 [Fast parallel multidimensional FFT using advanced MPI](https://arxiv.org/abs/1804.09536) by Lisandro Dalcin, Mikael Mortensen and David E. Keyes, accepted for publication by [The Journal of Parallel and Distributed Computing](https://www.journals.elsevier.com/journal-of-parallel-and-distributed-computing).
 
 +++
 
 ## News
+
+  * 30/8 2022 [A generic and strictly banded spectral Petrov-Galerkin method for differential equations with polynomial coefficients](https://github.com/spectralDNS/PG-paper-2022/blob/main/PGpaper.pdf) by Mikael Mortensen was accepted for publication by SIAM Journal on Scientific Computing
 
   * 13/6 2022 Kei Yamamoto defended his master thesis *Numerical Investigation of Turbulent Flow in Helically Coiled Pipes*
 
