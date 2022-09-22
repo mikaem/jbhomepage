@@ -55,4 +55,3 @@ sphinx:
       {"preamble": "\\usepackage{cancel}"}
     mathjax_path: 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-AMS_CHTML'
     bibtex_reference_style: author_year
-
