@@ -1,5 +1,7 @@
 # Numerical methods
 
+In my recent paper {cite}`mortensen2023` I describe a new, highly efficient and generic spectral Petrov-Galerkin method that always leads to strictly banded and well conditioned coefficient matrices. The method can be understood as a Petrov-Galerkin description of the [integration preconditioner method](https://www.researchgate.net/profile/Evangelos-Coutsias/publication/233743145_Integration_preconditioners_for_differential_operators_in_spectral_-methods/links/0912f50afe96f81dfb000000/Integration-preconditioners-for-differential-operators-in-spectral-methods.pdf) by Coutsias et al. (1995).
+
 My (now finished) PhD student Miroslav Kuchta has been looking at numerical methods to solve
 saddle point systems arising from trace constraints coupling 2D and 1D domains,
 or 3D and 1D domains {cite}`kuchta2016,kuchta2016preconditioning,kuchta15`.
