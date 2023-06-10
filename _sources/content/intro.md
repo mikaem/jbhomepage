@@ -25,9 +25,9 @@ often as possible in teaching and scientific computing.
 
 ## Recent highlights
 
-  * 13/4 2023 The Japan-Norway Partnership for Computing in Space Science [announced its next workshop to be held in Kobe, Japan, 17-24/6 2023](https://www.mn.uio.no/fysikk/english/research/projects/4dspace/education/04_japan-norway.html). The announcement is open for applications.
+  * 10/6 2023 [Effective control of two-dimensional Rayleigh--Bénard convection: invariant multi-agent reinforcement learning is all you need](https://arxiv.org/abs/2304.02370) by Colin Vignon, Jean Rabault, Joel Vasanth, Francisco Alcántara-Ávila, Mikael Mortensen and Ricardo Vinuesa. Paper accepted for publication by Physics of Fluids.
 
-  * 5/4 2023 [Effective control of two-dimensional Rayleigh--Bénard convection: invariant multi-agent reinforcement learning is all you need](https://arxiv.org/abs/2304.02370) by Colin Vignon, Jean Rabault, Joel Vasanth, Francisco Alcántara-Ávila, Mikael Mortensen and Ricardo Vinuesa. Submitted paper posted on arxiv.
+  * 13/4 2023 The Japan-Norway Partnership for Computing in Space Science [announced its next workshop to be held in Kobe, Japan, 17-24/6 2023](https://www.mn.uio.no/fysikk/english/research/projects/4dspace/education/04_japan-norway.html). The announcement is open for applications.
 
   * 30/8 2022 [A generic and strictly banded spectral Petrov-Galerkin method for differential equations with polynomial coefficients](https://github.com/spectralDNS/PG-paper-2022/blob/main/PGpaper.pdf) by Mikael Mortensen was accepted for publication by SIAM Journal on Scientific Computing
 
@@ -41,9 +41,9 @@ often as possible in teaching and scientific computing.
 
 ## News
 
-  * 13/4 2023 The Japan-Norway Partnership for Computing in Space Science [announced its next workshop to be held in Kobe, Japan, 17-24/6 2023](https://www.mn.uio.no/fysikk/english/research/projects/4dspace/education/04_japan-norway.html)
+  * 10/6 2023 [Effective control of two-dimensional Rayleigh--Bénard convection: invariant multi-agent reinforcement learning is all you need](https://arxiv.org/abs/2304.02370) by Colin Vignon, Jean Rabault, Joel Vasanth, Francisco Alcántara-Ávila, Mikael Mortensen and Ricardo Vinuesa. Paper accepted by Physics of Fluids.
 
-  * 5/4 2023 [Effective control of two-dimensional Rayleigh--Bénard convection: invariant multi-agent reinforcement learning is all you need](https://arxiv.org/abs/2304.02370) by Colin Vignon, Jean Rabault, Joel Vasanth, Francisco Alcántara-Ávila, Mikael Mortensen and Ricardo Vinuesa. Submitted paper posted on arxiv.
+  * 13/4 2023 The Japan-Norway Partnership for Computing in Space Science [announced its next workshop to be held in Kobe, Japan, 17-24/6 2023](https://www.mn.uio.no/fysikk/english/research/projects/4dspace/education/04_japan-norway.html)
 
   * 30/8 2022 [A generic and strictly banded spectral Petrov-Galerkin method for differential equations with polynomial coefficients](https://github.com/spectralDNS/PG-paper-2022/blob/main/PGpaper.pdf) by Mikael Mortensen was accepted for publication by SIAM Journal on Scientific Computing
 
