@@ -19,6 +19,6 @@ Picture below from the first workshop in Kobe, in June 2015.
 
 The Kobe-Oslo project was originally funded through the UTFORSK 2016 Partnership Programme administered
 by the Norwegian Centre for International Cooperation in Education (SIU). It is currently (2023)
-funded through the Norwegian Research Council INTPART programme (2023-2027).
+funded through the Norwegian Research Council INTPART programme (2021-2027).
 
 ![](../images/kobe.jpg)
