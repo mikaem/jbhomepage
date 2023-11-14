@@ -74,6 +74,6 @@ Current and previous students of mine are listed below.
 
   22. Sverre Vinje [Modeling the effect of slits on rowing blades](https://www.duo.uio.no/handle/10852/95607) (2020 - 2022)
 
-  23. Jacob Henrik HudtWalcker [Large eddy simulation of turbulence in helically coiled pipes: effects of mesh strategy](https://www.mn.uio.no/math/studier/aktuelt/arrangementer/master-2023/mastereksamen-MEK-ems-hudtwalcker.html) (2022 - 2023)
+  23. Jacob Henrik Hudtwalcker [Large eddy simulation of turbulence in helically coiled pipes: effects of mesh strategy](https://www.mn.uio.no/math/studier/aktuelt/arrangementer/master-2023/mastereksamen-MEK-ems-hudtwalcker.html) (2022 - 2023)
 
-  24. Jacob T S Langmoen [Turbulent flow past an edged geometry](https://www.mn.uio.no/math/studier/aktuelt/arrangementer/master-2023/mastereksamen-MEK-ems-langmoen.html) (2022 - 2023)
+  24. Jacob Teodor Steffansson Langmoen [Turbulent flow past an edged geometry](https://www.mn.uio.no/math/studier/aktuelt/arrangementer/master-2023/mastereksamen-MEK-ems-langmoen.html) (2022 - 2023)
