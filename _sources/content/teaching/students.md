@@ -22,7 +22,7 @@ Current and previous students of mine are listed below.
 
   * Thomas Zengaffinen-Morris (2017-2021) [Influence of Submarine Landslide Failure and Flow on Tsunami Genesis](https://www.mn.uio.no/math/english/research/news-and-events/events/disputations/2021/Zengaffinen-Morris.html)
 
-  * Matthias Rauter (2017 - 2021) Multiphase Navier-Stokes Equations applied to landslide tsunamis: Numerical simulations of granular flows and their interaction with water bodies
+  * Matthias Rauter (2017 - 2021) [Numerical simulations of granular flows and their interaction with water bodies](https://www.duo.uio.no/handle/10852/90158)
 
   * Anna Pitterskaya (2019 - )
 
@@ -74,8 +74,6 @@ Current and previous students of mine are listed below.
 
   22. Sverre Vinje [Modeling the effect of slits on rowing blades](https://www.duo.uio.no/handle/10852/95607) (2020 - 2022)
 
-  23. Jacob Henrik HudtWalcker *Large Eddy Simulations of flow through helically coiled pipes* (2022 - )
+  23. Jacob Henrik HudtWalcker [Large eddy simulation of turbulence in helically coiled pipes: effects of mesh strategy](https://www.mn.uio.no/math/studier/aktuelt/arrangementer/master-2023/mastereksamen-MEK-ems-hudtwalcker.html) (2022 - 2023)
 
-  24. Jacob T S Langmoen *Investigation of stability and wake for turbulent flow past a cybershape carbon* (2022 - )
-
-  25. Oliver Istad Funch *Optimalization of spectral Navier-Stokes solvers in Python* (2022 - )
+  24. Jacob T S Langmoen [Turbulent flow past an edged geometry](https://www.mn.uio.no/math/studier/aktuelt/arrangementer/master-2023/mastereksamen-MEK-ems-langmoen.html) (2022 - 2023)
