@@ -1,316 +1,408 @@
 
+
 <!DOCTYPE html>
 
-<html>
+
+<html lang="en" >
+
   <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.18.1: http://docutils.sourceforge.net/" />
+
     <title>Numerical methods &#8212; Professor Mikael Mortensen</title>
-    
-  <link href="../../_static/css/theme.css" rel="stylesheet" />
-  <link href="../../_static/css/index.c5995385ac14fb8791e8eb36b4908be2.css" rel="stylesheet" />
+  
+  
+  
+  <script data-cfasync="false">
+    document.documentElement.dataset.mode = localStorage.getItem("mode") || "";
+    document.documentElement.dataset.theme = localStorage.getItem("theme") || "light";
+  </script>
+  
+  <!-- Loaded before other Sphinx assets -->
+  <link href="../../_static/styles/theme.css?digest=ac02cc09edc035673794" rel="stylesheet" />
+<link href="../../_static/styles/bootstrap.css?digest=ac02cc09edc035673794" rel="stylesheet" />
+<link href="../../_static/styles/pydata-sphinx-theme.css?digest=ac02cc09edc035673794" rel="stylesheet" />
 
-    
-  <link rel="stylesheet"
-    href="../../_static/vendor/fontawesome/5.13.0/css/all.min.css">
-  <link rel="preload" as="font" type="font/woff2" crossorigin
-    href="../../_static/vendor/fontawesome/5.13.0/webfonts/fa-solid-900.woff2">
-  <link rel="preload" as="font" type="font/woff2" crossorigin
-    href="../../_static/vendor/fontawesome/5.13.0/webfonts/fa-brands-400.woff2">
+  
+  <link href="../../_static/vendor/fontawesome/6.1.2/css/all.min.css?digest=ac02cc09edc035673794" rel="stylesheet" />
+  <link rel="preload" as="font" type="font/woff2" crossorigin href="../../_static/vendor/fontawesome/6.1.2/webfonts/fa-solid-900.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="../../_static/vendor/fontawesome/6.1.2/webfonts/fa-brands-400.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="../../_static/vendor/fontawesome/6.1.2/webfonts/fa-regular-400.woff2" />
 
-    
-      
-
-    
-    <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
-    <link rel="stylesheet" href="../../_static/sphinx-book-theme.e8f53015daec13862f6db5e763c41738.css" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/pygments.css" />
+    <link rel="stylesheet" href="../../_static/styles/sphinx-book-theme.css?digest=14f4ca6b54d191a8c7657f6c759bf11a5fb86285" type="text/css" />
     <link rel="stylesheet" type="text/css" href="../../_static/togglebutton.css" />
     <link rel="stylesheet" type="text/css" href="../../_static/copybutton.css" />
-    <link rel="stylesheet" type="text/css" href="../../_static/mystnb.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/mystnb.4510f1fc1dee50b3e5859aac5469c37c29e427902b24a333a5f9fcb2f0b3ac41.css" />
     <link rel="stylesheet" type="text/css" href="../../_static/sphinx-thebe.css" />
-    <link rel="stylesheet" type="text/css" href="../../_static/panels-main.c949a650a448cc0ae9fd3441c0e17fb0.css" />
-    <link rel="stylesheet" type="text/css" href="../../_static/panels-variables.06eb56fa6e07937060861dad626602ad.css" />
-    
-  <link rel="preload" as="script" href="../../_static/js/index.1c5a1a01449ed65a7b51.js">
+    <link rel="stylesheet" type="text/css" href="../../_static/design-style.4045f2051d55cab465a707391d5b2007.min.css" />
+  
+  <!-- Pre-loaded scripts that we'll load fully later -->
+  <link rel="preload" as="script" href="../../_static/scripts/bootstrap.js?digest=ac02cc09edc035673794" />
+<link rel="preload" as="script" href="../../_static/scripts/pydata-sphinx-theme.js?digest=ac02cc09edc035673794" />
+  <script src="../../_static/vendor/fontawesome/6.1.2/js/all.min.js?digest=ac02cc09edc035673794"></script>
 
-    <script id="documentation_options" data-url_root="../../" src="../../_static/documentation_options.js"></script>
+    <script data-url_root="../../" id="documentation_options" src="../../_static/documentation_options.js"></script>
     <script src="../../_static/jquery.js"></script>
     <script src="../../_static/underscore.js"></script>
+    <script src="../../_static/_sphinx_javascript_frameworks_compat.js"></script>
     <script src="../../_static/doctools.js"></script>
-    <script src="../../_static/togglebutton.js"></script>
     <script src="../../_static/clipboard.min.js"></script>
     <script src="../../_static/copybutton.js"></script>
-    <script >var togglebuttonSelector = '.toggle, .admonition.dropdown, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
-    <script src="../../_static/sphinx-book-theme.12a9622fbb08dcb3a2a40b2c02b83a57.js"></script>
-    <script async="async" src="https://unpkg.com/thebe@0.5.1/lib/index.js"></script>
-    <script >
-        const thebe_selector = ".thebe,.cell"
-        const thebe_selector_input = "pre,.cell_input div.highlight"
-        const thebe_selector_output = ".output,.cell_output"
-    </script>
+    <script src="../../_static/scripts/sphinx-book-theme.js?digest=5a5c038af52cf7bc1a1ec88eea08e6366ee68824"></script>
+    <script>let toggleHintShow = 'Click to show';</script>
+    <script>let toggleHintHide = 'Click to hide';</script>
+    <script>let toggleOpenOnPrint = 'true';</script>
+    <script src="../../_static/togglebutton.js"></script>
+    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
+    <script src="../../_static/design-tabs.js"></script>
+    <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"
+const thebe_selector = ".thebe,.cell"
+const thebe_selector_input = "pre"
+const thebe_selector_output = ".output, .cell_output"
+</script>
     <script async="async" src="../../_static/sphinx-thebe.js"></script>
+    <script>DOCUMENTATION_OPTIONS.pagename = 'content/research/numerical';</script>
     <link rel="index" title="Index" href="../../genindex.html" />
     <link rel="search" title="Search" href="../../search.html" />
     <link rel="next" title="Multiphase" href="multiphase.html" />
     <link rel="prev" title="4DSpace" href="plasma.html" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="docsearch:language" content="en" />
-    
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <meta name="docsearch:language" content="en"/>
   </head>
-  <body data-spy="scroll" data-target="#bd-toc-nav" data-offset="80">
-    
-    <div class="container-fluid" id="banner"></div>
+  
+  
+  <body data-bs-spy="scroll" data-bs-target=".bd-toc-nav" data-offset="180" data-bs-root-margin="0px 0px -60%" data-default-mode="">
 
-    
+  
+  
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+  
+  <div id="pst-scroll-pixel-helper"></div>
 
-    <div class="container-xl">
-      <div class="row">
-          
-<div class="col-12 col-md-3 bd-sidebar site-navigation show" id="site-navigation">
+  
+  <button type="button" class="btn rounded-pill" id="pst-back-to-top">
+    <i class="fa-solid fa-arrow-up"></i>
+    Back to top
+  </button>
+
+  
+  <input type="checkbox"
+          class="sidebar-toggle"
+          name="__primary"
+          id="__primary"/>
+  <label class="overlay overlay-primary" for="__primary"></label>
+  
+  <input type="checkbox"
+          class="sidebar-toggle"
+          name="__secondary"
+          id="__secondary"/>
+  <label class="overlay overlay-secondary" for="__secondary"></label>
+  
+  <div class="search-button__wrapper">
+    <div class="search-button__overlay"></div>
+    <div class="search-button__search-container">
+<form class="bd-search d-flex align-items-center"
+      action="../../search.html"
+      method="get">
+  <i class="fa-solid fa-magnifying-glass"></i>
+  <input type="search"
+         class="form-control"
+         name="q"
+         id="search-input"
+         placeholder="Search this book..."
+         aria-label="Search this book..."
+         autocomplete="off"
+         autocorrect="off"
+         autocapitalize="off"
+         spellcheck="false"/>
+  <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd>K</kbd></span>
+</form></div>
+  </div>
+  
+    <nav class="bd-header navbar navbar-expand-lg bd-navbar">
+    </nav>
+  
+  <div class="bd-container">
+    <div class="bd-container__inner bd-page-width">
+      
+      <div class="bd-sidebar-primary bd-sidebar">
+        
+
+  
+  <div class="sidebar-header-items sidebar-primary__section">
     
-        <div class="navbar-brand-box">
-    <a class="navbar-brand text-wrap" href="../../index.html">
+    
+    
+    
+  </div>
+  
+    <div class="sidebar-primary-items__start sidebar-primary__section">
+        <div class="sidebar-primary-item">
+  
+
+<a class="navbar-brand logo" href="../intro.html">
+  
+  
+  
+  
+    
+    
       
-      <img src="../../_static/portrait_large.jpg" class="logo" alt="logo">
-      
-      
-      <h1 class="site-logo" id="site-title">Professor Mikael Mortensen</h1>
-      
-    </a>
-</div><form class="bd-search d-flex align-items-center" action="../../search.html" method="get">
-  <i class="icon fas fa-search"></i>
-  <input type="search" class="form-control" name="q" id="search-input" placeholder="Search this book..." aria-label="Search this book..." autocomplete="off" >
-</form><nav class="bd-links" id="bd-docs-nav" aria-label="Main">
-    <div class="bd-toc-item active">
+    
+    
+    <img src="../../_static/portrait_large.jpg" class="logo__image only-light" alt="Logo image"/>
+    <script>document.write(`<img src="../../_static/portrait_large.jpg" class="logo__image only-dark" alt="Logo image"/>`);</script>
+  
+  
+</a></div>
+        <div class="sidebar-primary-item"><nav class="bd-links" id="bd-docs-nav" aria-label="Main">
+    <div class="bd-toc-item navbar-nav active">
+        
+        <ul class="nav bd-sidenav bd-sidenav__home-link">
+            <li class="toctree-l1">
+                <a class="reference internal" href="../intro.html">
+                    Home
+                </a>
+            </li>
+        </ul>
         <ul class="nav bd-sidenav">
- <li class="toctree-l1">
-  <a class="reference internal" href="../intro.html">
-   Home
-  </a>
- </li>
+<li class="toctree-l1"><a class="reference internal" href="research.html">Short Bio</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../cv.html">CV</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../contact.html">Contact</a></li>
 </ul>
-<ul class="nav bd-sidenav">
- <li class="toctree-l1">
-  <a class="reference internal" href="research.html">
-   Short Bio
-  </a>
- </li>
- <li class="toctree-l1">
-  <a class="reference internal" href="../cv.html">
-   CV
-  </a>
- </li>
- <li class="toctree-l1">
-  <a class="reference internal" href="../contact.html">
-   Contact
-  </a>
- </li>
-</ul>
-<p class="caption">
- <span class="caption-text">
-  Research
- </span>
-</p>
+<p aria-level="2" class="caption" role="heading"><span class="caption-text">Research</span></p>
 <ul class="current nav bd-sidenav">
- <li class="toctree-l1">
-  <a class="reference internal" href="spectraldns.html">
-   SpectralDNS
-  </a>
- </li>
- <li class="toctree-l1">
-  <a class="reference internal" href="biomedical.html">
-   Biomedical flows
-  </a>
- </li>
- <li class="toctree-l1">
-  <a class="reference internal" href="cmc.html">
-   Turbulent Combustion
-  </a>
- </li>
- <li class="toctree-l1">
-  <a class="reference internal" href="plasma.html">
-   4DSpace
-  </a>
- </li>
- <li class="toctree-l1 current active">
-  <a class="current reference internal" href="#">
-   Numerical methods
-  </a>
- </li>
- <li class="toctree-l1">
-  <a class="reference internal" href="multiphase.html">
-   Multiphase
-  </a>
- </li>
+<li class="toctree-l1"><a class="reference internal" href="spectraldns.html">SpectralDNS</a></li>
+<li class="toctree-l1"><a class="reference internal" href="biomedical.html">Biomedical flows</a></li>
+<li class="toctree-l1"><a class="reference internal" href="cmc.html">Turbulent Combustion</a></li>
+<li class="toctree-l1"><a class="reference internal" href="plasma.html">4DSpace</a></li>
+<li class="toctree-l1 current active"><a class="current reference internal" href="#">Numerical methods</a></li>
+<li class="toctree-l1"><a class="reference internal" href="multiphase.html">Multiphase</a></li>
 </ul>
-<p class="caption">
- <span class="caption-text">
-  Resources
- </span>
-</p>
+<p aria-level="2" class="caption" role="heading"><span class="caption-text">Resources</span></p>
 <ul class="nav bd-sidenav">
- <li class="toctree-l1">
-  <a class="reference internal" href="../resources/codes.html">
-   Codes
-  </a>
- </li>
+<li class="toctree-l1"><a class="reference internal" href="../resources/codes.html">Codes</a></li>
 </ul>
-<p class="caption">
- <span class="caption-text">
-  Teaching
- </span>
-</p>
+<p aria-level="2" class="caption" role="heading"><span class="caption-text">Teaching</span></p>
 <ul class="nav bd-sidenav">
- <li class="toctree-l1">
-  <a class="reference internal" href="../teaching/teaching.html">
-   Courses
-  </a>
- </li>
- <li class="toctree-l1">
-  <a class="reference internal" href="../teaching/japan.html">
-   Japan-Norway Partnership
-  </a>
- </li>
- <li class="toctree-l1">
-  <a class="reference internal" href="../teaching/students.html">
-   Students
-  </a>
- </li>
+<li class="toctree-l1"><a class="reference internal" href="../teaching/teaching.html">Courses</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../teaching/japan.html">Japan-Norway Partnership</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../teaching/students.html">Students</a></li>
 </ul>
 
     </div>
-</nav> <!-- To handle the deprecated key -->
-
-<div class="navbar_extra_footer">
-  Powered by <a href="https://jupyterbook.org">Jupyter Book</a>
-</div>
-
-</div>
-
-
-          
-
-
-          
-<main class="col py-md-3 pl-md-4 bd-content overflow-auto" role="main">
-    
-    <div class="topbar container-xl fixed-top">
-    <div class="topbar-contents row">
-        <div class="col-12 col-md-3 bd-topbar-whitespace site-navigation show"></div>
-        <div class="col pl-md-4 topbar-main">
-            
-            <button id="navbar-toggler" class="navbar-toggler ml-0" type="button" data-toggle="collapse"
-                data-toggle="tooltip" data-placement="bottom" data-target=".site-navigation" aria-controls="navbar-menu"
-                aria-expanded="true" aria-label="Toggle navigation" aria-controls="site-navigation"
-                title="Toggle navigation" data-toggle="tooltip" data-placement="left">
-                <i class="fas fa-bars"></i>
-                <i class="fas fa-arrow-left"></i>
-                <i class="fas fa-arrow-up"></i>
-            </button>
-            
-            
-<div class="dropdown-buttons-trigger">
-    <button id="dropdown-buttons-trigger" class="btn btn-secondary topbarbtn" aria-label="Download this page"><i
-            class="fas fa-download"></i></button>
-
-    <div class="dropdown-buttons">
-        <!-- ipynb file if we had a myst markdown file -->
-        
-        <!-- Download raw file -->
-        <a class="dropdown-buttons" href="../../_sources/content/research/numerical.md"><button type="button"
-                class="btn btn-secondary topbarbtn" title="Download source file" data-toggle="tooltip"
-                data-placement="left">.md</button></a>
-        <!-- Download PDF via print -->
-        <button type="button" id="download-print" class="btn btn-secondary topbarbtn" title="Print to PDF"
-            onClick="window.print()" data-toggle="tooltip" data-placement="left">.pdf</button>
+</nav></div>
     </div>
-</div>
+  
+  
+  <div class="sidebar-primary-items__end sidebar-primary__section">
+  </div>
+  
+  <div id="rtd-footer-container"></div>
 
-            <!-- Source interaction buttons -->
 
-<div class="dropdown-buttons-trigger">
-    <button id="dropdown-buttons-trigger" class="btn btn-secondary topbarbtn"
-        aria-label="Connect with source repository"><i class="fab fa-github"></i></button>
-    <div class="dropdown-buttons sourcebuttons">
-        <a class="repository-button"
-            href="https://github.com/mikaem/jbhomepage"><button type="button" class="btn btn-secondary topbarbtn"
-                data-toggle="tooltip" data-placement="left" title="Source repository"><i
-                    class="fab fa-github"></i>repository</button></a>
+      </div>
+      
+      <main id="main-content" class="bd-main">
         
         
+
+<div class="sbt-scroll-pixel-helper"></div>
+
+          <div class="bd-content">
+            <div class="bd-article-container">
+              
+              <div class="bd-header-article">
+<div class="header-article-items header-article__inner">
+  
+    <div class="header-article-items__start">
+      
+        <div class="header-article-item"><label class="sidebar-toggle primary-toggle btn btn-sm" for="__primary" title="Toggle primary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+  <span class="fa-solid fa-bars"></span>
+</label></div>
+      
     </div>
+  
+  
+    <div class="header-article-items__end">
+      
+        <div class="header-article-item">
+
+<div class="article-header-buttons">
+
+
+<a href="https://github.com/mikaem/jbhomepage" target="_blank"
+   class="btn btn-sm btn-source-repository-button"
+   title="Source repository"
+   data-bs-placement="bottom" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fab fa-github"></i>
+  </span>
+
+</a>
+
+
+
+
+
+
+<div class="dropdown dropdown-download-buttons">
+  <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Download this page">
+    <i class="fas fa-download"></i>
+  </button>
+  <ul class="dropdown-menu">
+      
+      
+      
+      <li><a href="../../_sources/content/research/numerical.md" target="_blank"
+   class="btn btn-sm btn-download-source-button dropdown-item"
+   title="Download source file"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-file"></i>
+  </span>
+<span class="btn__text-container">.md</span>
+</a>
+</li>
+      
+      
+      
+      
+      <li>
+<button onclick="window.print()"
+  class="btn btn-sm btn-download-pdf-button dropdown-item"
+  title="Print to PDF"
+  data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-file-pdf"></i>
+  </span>
+<span class="btn__text-container">.pdf</span>
+</button>
+</li>
+      
+  </ul>
 </div>
 
-            <!-- Full screen (wrap in <a> to have style consistency -->
 
-<a class="full-screen-button"><button type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip"
-        data-placement="bottom" onclick="toggleFullScreen()" aria-label="Fullscreen mode"
-        title="Fullscreen mode"><i
-            class="fas fa-expand"></i></button></a>
 
-            <!-- Launch buttons -->
 
-        </div>
+<button onclick="toggleFullScreen()"
+  class="btn btn-sm btn-fullscreen-button"
+  title="Fullscreen mode"
+  data-bs-placement="bottom" data-bs-toggle="tooltip"
+>
+  
 
-        <!-- Table of contents -->
-        <div class="d-none d-md-block col-md-2 bd-toc show">
+<span class="btn__icon-container">
+  <i class="fas fa-expand"></i>
+  </span>
+
+</button>
+
+
+<script>
+document.write(`
+  <button class="btn btn-sm navbar-btn theme-switch-button" title="light/dark" aria-label="light/dark" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="theme-switch nav-link" data-mode="light"><i class="fa-solid fa-sun fa-lg"></i></span>
+    <span class="theme-switch nav-link" data-mode="dark"><i class="fa-solid fa-moon fa-lg"></i></span>
+    <span class="theme-switch nav-link" data-mode="auto"><i class="fa-solid fa-circle-half-stroke fa-lg"></i></span>
+  </button>
+`);
+</script>
+
+<script>
+document.write(`
+  <button class="btn btn-sm navbar-btn search-button search-button__button" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="fa-solid fa-magnifying-glass fa-lg"></i>
+  </button>
+`);
+</script>
+<label class="sidebar-toggle secondary-toggle btn btn-sm" for="__secondary"title="Toggle secondary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="fa-solid fa-list"></span>
+</label>
+</div></div>
+      
+    </div>
+  
+</div>
+</div>
+              
+              
+
+<div id="jb-print-docs-body" class="onlyprint">
+    <h1>Numerical methods</h1>
+    <!-- Table of contents -->
+    <div id="print-main-content">
+        <div id="jb-print-toc">
             
-            <div class="tocsection onthispage pt-5 pb-3">
-                <i class="fas fa-list"></i> Contents
+            <div>
+                <h2> Contents </h2>
             </div>
-            <nav id="bd-toc-nav" aria-label="Page">
+            <nav aria-label="Page">
                 <ul class="visible nav section-nav flex-column">
- <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#references">
-   References
-  </a>
- </li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#references">References</a></li>
 </ul>
-
             </nav>
         </div>
     </div>
 </div>
-    <div id="main-content" class="row">
-        <div class="col-12 col-md-9 pl-md-3 pr-md-0">
-        
-              <div>
+
+              
                 
-  <div class="section" id="numerical-methods">
-<h1>Numerical methods<a class="headerlink" href="#numerical-methods" title="Permalink to this headline">¶</a></h1>
-<p>In my recent paper <span id="id1">[<a class="reference internal" href="#id62">Mortensen, 2023</a>]</span> I describe a new, highly efficient and generic spectral Petrov-Galerkin method that always leads to strictly banded and well conditioned coefficient matrices. The method can be understood as a Petrov-Galerkin description of the <a class="reference external" href="https://www.researchgate.net/profile/Evangelos-Coutsias/publication/233743145_Integration_preconditioners_for_differential_operators_in_spectral_-methods/links/0912f50afe96f81dfb000000/Integration-preconditioners-for-differential-operators-in-spectral-methods.pdf">integration preconditioner method</a> by Coutsias et al. (1995).</p>
+<div id="searchbox"></div>
+                <article class="bd-article" role="main">
+                  
+  <section class="tex2jax_ignore mathjax_ignore" id="numerical-methods">
+<h1>Numerical methods<a class="headerlink" href="#numerical-methods" title="Permalink to this heading">#</a></h1>
+<p>In my recent paper <span id="id1">[<a class="reference internal" href="#id62" title="Mikael Mortensen. A generic and strictly banded spectral petrov–galerkin method for differential equations with polynomial coefficients. SIAM Journal on Scientific Computing, 45(1):A123-A146, 2023. doi:10.1137/22M1492842.">Mortensen, 2023</a>]</span> I describe a new, highly efficient and generic spectral Petrov-Galerkin method that always leads to strictly banded and well conditioned coefficient matrices. The method can be understood as a Petrov-Galerkin description of the <a class="reference external" href="https://www.researchgate.net/profile/Evangelos-Coutsias/publication/233743145_Integration_preconditioners_for_differential_operators_in_spectral_-methods/links/0912f50afe96f81dfb000000/Integration-preconditioners-for-differential-operators-in-spectral-methods.pdf">integration preconditioner method</a> by Coutsias et al. (1995).</p>
 <p>My (now finished) PhD student Miroslav Kuchta has been looking at numerical methods to solve
 saddle point systems arising from trace constraints coupling 2D and 1D domains,
-or 3D and 1D domains <span id="id2">[<a class="reference internal" href="#id56">Kuchta <em>et al.</em>, 2015</a>, <a class="reference internal" href="#id37">Kuchta <em>et al.</em>, 2018</a>, <a class="reference internal" href="#id39">Kuchta <em>et al.</em>, 2016</a>]</span>.</p>
+or 3D and 1D domains <span id="id2">[<a class="reference internal" href="#id56" title="M. Kuchta, K. A. Mardal, and M. Mortensen. Characterization of the space of rigid motions in arbitrary domains. In In Bjørn Helge Skallerud and Helge Ingolf Andersson (ed.), MekIT'15 - Eight national conference on Computational Mechanics. International Center for Numerical Methods in Engineering (CIMNE), 259-274. 2015.">Kuchta <em>et al.</em>, 2015</a>, <a class="reference internal" href="#id37" title="Miroslav Kuchta, Kent-Andre Mardal, and Mikael Mortensen. Preconditioning trace coupled 3d-1d systems using fractional Laplacian. Numer. Methods Partial Differential Equations, 2018. URL: https://arxiv.org/abs/1612.03574.">Kuchta <em>et al.</em>, 2018</a>, <a class="reference internal" href="#id39" title="Miroslav Kuchta, Magne Nordaas, Joris C. G. Verschaeve, Mikael Mortensen, and Kent-Andre Mardal. Preconditioners for saddle point systems with trace constraints coupling 2d and 1d domains. SIAM Journal on Scientific Computing, 38(6):B962-B987, 2016. doi:10.1137/15M1052822.">Kuchta <em>et al.</em>, 2016</a>]</span>.</p>
 <p>We have also been studying the singular Neumann problem of linear elasticity
-<span id="id3">[<a class="reference internal" href="#id38">Kuchta <em>et al.</em>, 2018</a>]</span>.
+<span id="id3">[<a class="reference internal" href="#id38" title="Miroslav Kuchta, Kent-Andre Mardal, and Mikael Mortensen. On the singular neumann problem in linear elasticity. Numerical Linear Algebra with Applications, 2018. URL: https://arxiv.org/abs/1609.09425.">Kuchta <em>et al.</em>, 2018</a>]</span>.
 Four different formulations of the problem have been analyzed and mesh independent preconditioners established for the resulting linear systems within the framework of operator preconditioning. We have proposed a preconditioner for the (singular) mixed formulation of linear elasticity, that is robust with respect to the material parameters. Using an orthonormal basis of the space of rigid motions, discrete projection operators have been derived and employed in a modification to the conjugate gradients method to ensure optimal error convergence of the solution.</p>
-<p>With colleagues at the Extreme Computing Research Center (ECRC), King Abdullah University of Science and Technology (KAUST), we have been using <a class="reference external" href="https://github.com/spectralDNS">spectralDNS</a> to investigate time integration of Fourier pseudospectral Direct Numerical Simulations <span id="id4">[<a class="reference internal" href="#id60">Ketcheson <em>et al.</em>, 2020</a>]</span>. We investigate the use of higher‐order Runge‐Kutta pairs and automatic step size control based on local error estimation. We find that the fifth‐order accurate Runge‐Kutta pair of Bogacki and Shampine gives much greater accuracy at a significantly reduced computational cost.</p>
-<div class="section" id="references">
-<h2>References<a class="headerlink" href="#references" title="Permalink to this headline">¶</a></h2>
-<p id="id5"><dl class="citation">
-<dt class="label" id="id60"><span class="brackets"><a class="fn-backref" href="#id4">KMPS20</a></span></dt>
-<dd><p>David I. Ketcheson, Mikael Mortensen, Matteo Parsani, and Nathanael Schilling. More efficient time integration for fourier pseudospectral dns of incompressible turbulence. <em>International Journal for Numerical Methods in Fluids</em>, 92(2):79–93, 2020. <a class="reference external" href="https://doi.org/10.1002/fld.4773">doi:10.1002/fld.4773</a>.</p>
-</dd>
-<dt class="label" id="id56"><span class="brackets"><a class="fn-backref" href="#id2">KMM15</a></span></dt>
-<dd><p>M. Kuchta, K. A. Mardal, and M. Mortensen. Characterization of the space of rigid motions in arbitrary domains. In <em>In Bjørn Helge Skallerud and Helge Ingolf Andersson (ed.), MekIT'15 - Eight national conference on Computational Mechanics. International Center for Numerical Methods in Engineering (CIMNE)</em>, 259–274. 2015.</p>
-</dd>
-<dt class="label" id="id38"><span class="brackets"><a class="fn-backref" href="#id3">KMM18a</a></span></dt>
-<dd><p>Miroslav Kuchta, Kent-Andre Mardal, and Mikael Mortensen. On the singular neumann problem in linear elasticity. <em>Numerical Linear Algebra with Applications</em>, 2018. URL: <a class="reference external" href="https://arxiv.org/abs/1609.09425">https://arxiv.org/abs/1609.09425</a>.</p>
-</dd>
-<dt class="label" id="id37"><span class="brackets"><a class="fn-backref" href="#id2">KMM18b</a></span></dt>
-<dd><p>Miroslav Kuchta, Kent-Andre Mardal, and Mikael Mortensen. Preconditioning trace coupled 3d-1d systems using fractional Laplacian. <em>Numer. Methods Partial Differential Equations</em>, 2018. URL: <a class="reference external" href="https://arxiv.org/abs/1612.03574">https://arxiv.org/abs/1612.03574</a>.</p>
-</dd>
-<dt class="label" id="id39"><span class="brackets"><a class="fn-backref" href="#id2">KNV+16</a></span></dt>
-<dd><p>Miroslav Kuchta, Magne Nordaas, Joris C. G. Verschaeve, Mikael Mortensen, and Kent-Andre Mardal. Preconditioners for saddle point systems with trace constraints coupling 2d and 1d domains. <em>SIAM Journal on Scientific Computing</em>, 38(6):B962–B987, 2016. <a class="reference external" href="https://doi.org/10.1137/15M1052822">doi:10.1137/15M1052822</a>.</p>
-</dd>
-<dt class="label" id="id62"><span class="brackets"><a class="fn-backref" href="#id1">Mor23</a></span></dt>
-<dd><p>Mikael Mortensen. A generic and strictly banded spectral petrov–galerkin method for differential equations with polynomial coefficients. <em>SIAM Journal on Scientific Computing</em>, 45(1):A123–A146, 2023. <a class="reference external" href="https://doi.org/10.1137/22M1492842">doi:10.1137/22M1492842</a>.</p>
-</dd>
-</dl>
-</p>
+<p>With colleagues at the Extreme Computing Research Center (ECRC), King Abdullah University of Science and Technology (KAUST), we have been using <a class="reference external" href="https://github.com/spectralDNS">spectralDNS</a> to investigate time integration of Fourier pseudospectral Direct Numerical Simulations <span id="id4">[<a class="reference internal" href="spectraldns.html#id64" title="David I. Ketcheson, Mikael Mortensen, Matteo Parsani, and Nathanael Schilling. More efficient time integration for fourier pseudospectral dns of incompressible turbulence. International Journal for Numerical Methods in Fluids, 92(2):79-93, 2020. doi:10.1002/fld.4773.">Ketcheson <em>et al.</em>, 2020</a>]</span>. We investigate the use of higher‐order Runge‐Kutta pairs and automatic step size control based on local error estimation. We find that the fifth‐order accurate Runge‐Kutta pair of Bogacki and Shampine gives much greater accuracy at a significantly reduced computational cost.</p>
+<section id="references">
+<h2>References<a class="headerlink" href="#references" title="Permalink to this heading">#</a></h2>
+<div class="docutils container" id="id5">
+<div class="citation" id="id60" role="doc-biblioentry">
+<span class="label"><span class="fn-bracket">[</span><a role="doc-backlink" href="#id4">KMPS20</a><span class="fn-bracket">]</span></span>
+<p>David I. Ketcheson, Mikael Mortensen, Matteo Parsani, and Nathanael Schilling. More efficient time integration for fourier pseudospectral dns of incompressible turbulence. <em>International Journal for Numerical Methods in Fluids</em>, 92(2):79–93, 2020. <a class="reference external" href="https://doi.org/10.1002/fld.4773">doi:10.1002/fld.4773</a>.</p>
+</div>
+<div class="citation" id="id56" role="doc-biblioentry">
+<span class="label"><span class="fn-bracket">[</span><a role="doc-backlink" href="#id2">KMM15</a><span class="fn-bracket">]</span></span>
+<p>M. Kuchta, K. A. Mardal, and M. Mortensen. Characterization of the space of rigid motions in arbitrary domains. In <em>In Bjørn Helge Skallerud and Helge Ingolf Andersson (ed.), MekIT'15 - Eight national conference on Computational Mechanics. International Center for Numerical Methods in Engineering (CIMNE)</em>, 259–274. 2015.</p>
+</div>
+<div class="citation" id="id38" role="doc-biblioentry">
+<span class="label"><span class="fn-bracket">[</span><a role="doc-backlink" href="#id3">KMM18a</a><span class="fn-bracket">]</span></span>
+<p>Miroslav Kuchta, Kent-Andre Mardal, and Mikael Mortensen. On the singular neumann problem in linear elasticity. <em>Numerical Linear Algebra with Applications</em>, 2018. URL: <a class="reference external" href="https://arxiv.org/abs/1609.09425">https://arxiv.org/abs/1609.09425</a>.</p>
+</div>
+<div class="citation" id="id37" role="doc-biblioentry">
+<span class="label"><span class="fn-bracket">[</span><a role="doc-backlink" href="#id2">KMM18b</a><span class="fn-bracket">]</span></span>
+<p>Miroslav Kuchta, Kent-Andre Mardal, and Mikael Mortensen. Preconditioning trace coupled 3d-1d systems using fractional Laplacian. <em>Numer. Methods Partial Differential Equations</em>, 2018. URL: <a class="reference external" href="https://arxiv.org/abs/1612.03574">https://arxiv.org/abs/1612.03574</a>.</p>
+</div>
+<div class="citation" id="id39" role="doc-biblioentry">
+<span class="label"><span class="fn-bracket">[</span><a role="doc-backlink" href="#id2">KNV+16</a><span class="fn-bracket">]</span></span>
+<p>Miroslav Kuchta, Magne Nordaas, Joris C. G. Verschaeve, Mikael Mortensen, and Kent-Andre Mardal. Preconditioners for saddle point systems with trace constraints coupling 2d and 1d domains. <em>SIAM Journal on Scientific Computing</em>, 38(6):B962–B987, 2016. <a class="reference external" href="https://doi.org/10.1137/15M1052822">doi:10.1137/15M1052822</a>.</p>
+</div>
+<div class="citation" id="id62" role="doc-biblioentry">
+<span class="label"><span class="fn-bracket">[</span><a role="doc-backlink" href="#id1">Mor23</a><span class="fn-bracket">]</span></span>
+<p>Mikael Mortensen. A generic and strictly banded spectral petrov–galerkin method for differential equations with polynomial coefficients. <em>SIAM Journal on Scientific Computing</em>, 45(1):A123–A146, 2023. <a class="reference external" href="https://doi.org/10.1137/22M1492842">doi:10.1137/22M1492842</a>.</p>
 </div>
 </div>
+</div>
+</section>
+</section>
 
     <script type="text/x-thebe-config">
     {
@@ -324,7 +416,7 @@ Four different formulations of the problem have been analyzed and mesh independe
             mode: "python"
         },
         kernelOptions: {
-            kernelName: "python3",
+            name: "python3",
             path: "./content/research"
         },
         predefinedOutput: true
@@ -332,56 +424,101 @@ Four different formulations of the problem have been analyzed and mesh independe
     </script>
     <script>kernelName = 'python3'</script>
 
-              </div>
+                </article>
               
-        
-            
 
-
-
-<div class='prev-next-bottom'>
-    
-    <div id="prev">
-        <a class="left-prev" href="plasma.html" title="previous page">
-            <i class="prevnext-label fas fa-angle-left"></i>
-            <div class="prevnext-info">
-                <p class="prevnext-label">previous</p>
-                <p class="prevnext-title">4DSpace</p>
-            </div>
-        </a>
-    </div>
-     <div id="next">
-        <a class="right-next" href="multiphase.html" title="next page">
-            <div class="prevnext-info">
-                <p class="prevnext-label">next</p>
-                <p class="prevnext-title">Multiphase</p>
-            </div>
-            <i class="prevnext-label fas fa-angle-right"></i>
-        </a>
-     </div>
-
-</div>
-        
-        </div>
-    </div>
-    <footer class="footer mt-5 mt-md-0">
-    <div class="container">
-      <p>
-        
-          By Mikael Mortensen<br/>
-        
-            &copy; Copyright 2023.<br/>
-      </p>
-    </div>
-  </footer>
-</main>
-
-
+              
+              
+              
+              
+                <footer class="prev-next-footer">
+                  <!-- Previous / next buttons -->
+<div class="prev-next-area">
+    <a class="left-prev"
+       href="plasma.html"
+       title="previous page">
+      <i class="fa-solid fa-angle-left"></i>
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">previous</p>
+        <p class="prev-next-title">4DSpace</p>
       </div>
-    </div>
-  
-  <script src="../../_static/js/index.1c5a1a01449ed65a7b51.js"></script>
+    </a>
+    <a class="right-next"
+       href="multiphase.html"
+       title="next page">
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">next</p>
+        <p class="prev-next-title">Multiphase</p>
+      </div>
+      <i class="fa-solid fa-angle-right"></i>
+    </a>
+</div>
+                </footer>
+              
+            </div>
+            
+            
+              
+                <div class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
 
+  <div class="sidebar-secondary-item">
+  <div class="page-toc tocsection onthispage">
+    <i class="fa-solid fa-list"></i> Contents
+  </div>
+  <nav class="bd-toc-nav page-toc">
+    <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#references">References</a></li>
+</ul>
+  </nav></div>
+
+</div></div>
+              
+            
+          </div>
+          <footer class="bd-footer-content">
+            
+<div class="bd-footer-content__inner container">
   
+  <div class="footer-item">
+    
+<p class="component-author">
+By Mikael Mortensen
+</p>
+
+  </div>
+  
+  <div class="footer-item">
+    
+  <p class="copyright">
+    
+      © Copyright 2023.
+      <br/>
+    
+  </p>
+
+  </div>
+  
+  <div class="footer-item">
+    
+  </div>
+  
+  <div class="footer-item">
+    
+  </div>
+  
+</div>
+          </footer>
+        
+
+      </main>
+    </div>
+  </div>
+  
+  <!-- Scripts loaded after <body> so the DOM is not blocked -->
+  <script src="../../_static/scripts/bootstrap.js?digest=ac02cc09edc035673794"></script>
+<script src="../../_static/scripts/pydata-sphinx-theme.js?digest=ac02cc09edc035673794"></script>
+
+  <footer class="bd-footer">
+  </footer>
   </body>
 </html>

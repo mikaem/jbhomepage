@@ -25,21 +25,21 @@ often as possible in teaching and scientific computing.
 
 ## Recent highlights
 
-  * 10/6 2023 [Effective control of two-dimensional Rayleigh--Bénard convection: invariant multi-agent reinforcement learning is all you need](https://arxiv.org/abs/2304.02370) by Colin Vignon, Jean Rabault, Joel Vasanth, Francisco Alcántara-Ávila, Mikael Mortensen and Ricardo Vinuesa. Paper accepted for publication by Physics of Fluids.
+  * 21/10 2023 [A global spectral-Galerkin investigation of a Rayleigh–Taylor instability in plasma using an MHD–Boussinesq model](https://10.1063/5.0155976) by Anna Piterskaya, Wojciech J Miloch and Mikael Mortensen published by AIP Advances.
 
-  * 13/4 2023 The Japan-Norway Partnership for Computing in Space Science [announced its next workshop to be held in Kobe, Japan, 17-24/6 2023](https://www.mn.uio.no/fysikk/english/research/projects/4dspace/education/04_japan-norway.html). The announcement is open for applications.
+  * 10/6 2023 [Effective control of two-dimensional Rayleigh--Bénard convection: invariant multi-agent reinforcement learning is all you need](https://arxiv.org/abs/2304.02370) by Colin Vignon, Jean Rabault, Joel Vasanth, Francisco Alcántara-Ávila, Mikael Mortensen and Ricardo Vinuesa. Paper accepted for publication by Physics of Fluids.
 
   * 30/8 2022 [A generic and strictly banded spectral Petrov-Galerkin method for differential equations with polynomial coefficients](https://github.com/spectralDNS/PG-paper-2022/blob/main/PGpaper.pdf) by Mikael Mortensen was accepted for publication by SIAM Journal on Scientific Computing
 
   * 21/6 2021 Japan-Norway Partnership for Computing in Space Science receives 10 MNOK in funding from the Research Council of Norway!
-
-  * 18/1 2021 [Two-phase co-current flow simulations using periodic boundary conditions in horizontal, 4, 10 and 90° inclined eccentric annulus, flow prediction using a modified interFoam solver and comparison with experimental results](https://doi.org/10.1016/j.ijheatfluidflow.2020.108754) by Friedemann C, Mortensen M and Nossen J published in International Journal of Heat and Fluid Flow.
 
   * 20/2 2019 [Fast parallel multidimensional FFT using advanced MPI](https://arxiv.org/abs/1804.09536) by Lisandro Dalcin, Mikael Mortensen and David E. Keyes, accepted for publication by [The Journal of Parallel and Distributed Computing](https://www.journals.elsevier.com/journal-of-parallel-and-distributed-computing).
 
 +++
 
 ## News
+
+  * 21/10 2023 [A global spectral-Galerkin investigation of a Rayleigh–Taylor instability in plasma using an MHD–Boussinesq model](https://10.1063/5.0155976) by Anna Piterskaya, Wojciech J Miloch and Mikael Mortensen published by AIP Advances.
 
   * 10/6 2023 [Effective control of two-dimensional Rayleigh--Bénard convection: invariant multi-agent reinforcement learning is all you need](https://arxiv.org/abs/2304.02370) by Colin Vignon, Jean Rabault, Joel Vasanth, Francisco Alcántara-Ávila, Mikael Mortensen and Ricardo Vinuesa. Paper accepted by Physics of Fluids.
 
