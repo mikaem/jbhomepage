@@ -39,6 +39,10 @@ often as possible in teaching and scientific computing.
 
 ## News
 
+  * 2/11 2023 Jacob H Hudtwalcker defended his master thesis *Large Eddy Simulation of Turbulence in Helically Coiled Pipes: Effects of Mesh Strategy*.
+
+  * 23/10 2023 Jacob T S Langmoen defended his master thesis *Turbulent Flow Past An Edged Geometry*.
+
   * 21/10 2023 [A global spectral-Galerkin investigation of a Rayleigh–Taylor instability in plasma using an MHD–Boussinesq model](https://10.1063/5.0155976) by Anna Piterskaya, Wojciech J Miloch and Mikael Mortensen published by AIP Advances.
 
   * 10/6 2023 [Effective control of two-dimensional Rayleigh--Bénard convection: invariant multi-agent reinforcement learning is all you need](https://arxiv.org/abs/2304.02370) by Colin Vignon, Jean Rabault, Joel Vasanth, Francisco Alcántara-Ávila, Mikael Mortensen and Ricardo Vinuesa. Paper accepted by Physics of Fluids.
