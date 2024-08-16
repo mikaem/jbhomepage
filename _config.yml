@@ -1,7 +1,7 @@
 # Book settings
 title                       : Professor Mikael Mortensen  # The title of the book. Will be placed in the left navbar.
 author                      : Mikael Mortensen  # The author of the book
-copyright                   : "2021"  # Copyright year to be placed in the footer
+copyright                   : "2023"  # Copyright year to be placed in the footer
 logo                        : "content/images/portrait_large.jpg"
 exclude_patterns            : []  # Patterns to skip when building the book. Can be glob-style (e.g. "*skip.ipynb")
 

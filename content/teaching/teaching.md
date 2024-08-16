@@ -12,3 +12,5 @@ following courses:
   * [Computational Fluid Mechanics](http://www.uio.no/studier/emner/matnat/math/MEK4470/)
 
   * [Feltteori og Vektoranalyse](https://www.uio.no/studier/emner/matnat/math/MEK1100/)
+
+  * [Numerical Methods for Partial Differential Equations](https://www.uio.no/studier/emner/matnat/math/MAT-MEK4270/)

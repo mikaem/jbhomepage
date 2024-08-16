@@ -22,7 +22,7 @@ Current and previous students of mine are listed below.
 
   * Thomas Zengaffinen-Morris (2017-2021) [Influence of Submarine Landslide Failure and Flow on Tsunami Genesis](https://www.mn.uio.no/math/english/research/news-and-events/events/disputations/2021/Zengaffinen-Morris.html)
 
-  * Matthias Rauter (2017 - 2021) Multiphase Navier-Stokes Equations applied to landslide tsunamis: Numerical simulations of granular flows and their interaction with water bodies
+  * Matthias Rauter (2017 - 2021) [Numerical simulations of granular flows and their interaction with water bodies](https://www.duo.uio.no/handle/10852/90158)
 
   * Anna Pitterskaya (2019 - )
 
@@ -54,7 +54,7 @@ Current and previous students of mine are listed below.
 
   12. Guttorm Kvaal [Numerical Simulations of Pharmaceutical Particles Depositing in the Human Respiratory System](https://www.duo.uio.no/handle/10852/57784) (2015 - 2017)
 
-  13. Andreas Strøm Slyngstad "Verification and Validation of a Monolithic Fluid-Structure Interaction Solver in FEniCS" (2015 - 2017)
+  13. Andreas Strøm Slyngstad [Verification and Validation of a Monolithic Fluid-Structure Interaction Solver in FEniCS](https://www.duo.uio.no/handle/10852/60349) (2015 - 2017)
 
   14. Sebastian Gjertsen [Development of a Verified and Validated Computational Framework for Fluid-Structure Interaction: Investigating Lifting Operators and Numerical Stability](https://www.duo.uio.no/handle/10852/57788) (2015 - 2017)
 
@@ -70,12 +70,10 @@ Current and previous students of mine are listed below.
 
   20. Trym Erik Nielsen [Photoemissive charging of the Mercury Magnetospheric Orbiter studied by means of 3D Particle-In-Cell simulations](https://www.duo.uio.no/handle/10852/79678) (2018 - 2020)
 
-  21. Kei Yamamoto *Investigation of flow through helically coiled pipes* (2020 - 2022)
+  21. Kei Yamamoto [Investigation of flow through helically coiled pipes](https://www.duo.uio.no/handle/10852/95603) (2020 - 2022)
 
-  22. Sverre Vinje *Modeling the effect of slits on rowing blades* (2020 - 2022)
+  22. Sverre Vinje [Modeling the effect of slits on rowing blades](https://www.duo.uio.no/handle/10852/95607) (2020 - 2022)
 
-  23. Jacob Henrik HudtWalcker *Large Eddy Simulations of flow through helically coiled pipes* (2022 - )
+  23. Jacob Henrik Hudtwalcker [Large eddy simulation of turbulence in helically coiled pipes: effects of mesh strategy](https://www.mn.uio.no/math/studier/aktuelt/arrangementer/master-2023/mastereksamen-MEK-ems-hudtwalcker.html) (2022 - 2023)
 
-  24. Jacob T S Langmoen *Investigation of stability and wake for turbulent flow past a cybershape carbon* (2022 - )
-
-  25. Oliver Istad Funch *Optimalization of spectral Navier-Stokes solvers in Python* (2022 - )
+  24. Jacob Teodor Steffansson Langmoen [Turbulent flow past an edged geometry](https://www.mn.uio.no/math/studier/aktuelt/arrangementer/master-2023/mastereksamen-MEK-ems-langmoen.html) (2022 - 2023)

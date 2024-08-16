@@ -628,3 +628,32 @@ author = "Tormod Landet and Kent-Andre Mardal and Mikael Mortensen",
 keywords = "DG FEM, Divergence-free, Solenoidal, Navier–Stokes, Two-phase, Slope limiter, Gibbs oscillations, Density jump",
 abstract = "Solving the Navier–Stokes equations when the density field contains a large and sharp discontinuity—such as a water/air free surface—is numerically challenging. Convective instabilities cause Gibbs oscillations which quickly destroy the solution. We investigate the use of slope limiters for the velocity field to overcome this problem in a way that does not compromise on the mass-conservation properties. The equations are discretised using a symmetric interior-penalty discontinuous Galerkin finite element method that is divergence-free to machine precision. A slope limiter made specifically for exactly divergence-free (solenoidal) fields is presented and used to illustrate the difficulties in obtaining convectively stable fields that are also exactly solenoidal. The lessons learned from this are applied in constructing a simpler method based on the use of an existing scalar slope limiter applied to each velocity component. We show by numerical examples how both presented slope limiting methods are vastly superior to the naive non-limited method. The methods can solve difficult two-phase problems with high density-ratios and high Reynolds numbers—typical for marine and offshore water/air simulations—in a way that conserves mass and stops unbounded energy growth caused by the Gibbs phenomenon."
 }
+
+@article{mortensen2023,
+author = {Mortensen, Mikael},
+title = {A Generic and Strictly Banded Spectral Petrov–Galerkin Method for Differential Equations with Polynomial Coefficients},
+journal = {SIAM Journal on Scientific Computing},
+volume = {45},
+number = {1},
+pages = {A123-A146},
+year = {2023},
+doi = {10.1137/22M1492842}
+}
+
+@article{piterskaya23,
+    author = {Piterskaya, A. and Miloch, W. J. and Mortensen, M.},
+    title = "{A global spectral-Galerkin investigation of a Rayleigh–Taylor instability in plasma using an MHD–Boussinesq model}",
+    journal = {AIP Advances},
+    volume = {13},
+    number = {10},
+    pages = {105319},
+    year = {2023},
+    month = {10},
+    issn = {2158-3226},
+    doi = {10.1063/5.0155976}
+}
+
+
+
+
+
