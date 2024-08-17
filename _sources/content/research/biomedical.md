@@ -33,7 +33,7 @@ C++ solvers OpenFOAM and CDP (Stanford).
 
 +++
 
-The Oasis solver has been used in a range of master theses (see [Teaching](teaching.html#sec:master)).
+The Oasis solver has been used in a range of master theses (see [Teaching](https://mikaem.github.io/content/teaching.html#sec:master)).
 For one of my master students, Per Thomas Haga, the thesis led to a journal paper on injecting
 drugs in the Cerebrospinal fluid (CSF) {cite}`haga_2017`. The animation on the right
 shows how an injected drug moves up and down inside the CSF channel. It can also

@@ -32,7 +32,7 @@
     <link rel="stylesheet" type="text/css" href="../../_static/styles/sphinx-book-theme.css?v=a3416100" />
     <link rel="stylesheet" type="text/css" href="../../_static/togglebutton.css?v=13237357" />
     <link rel="stylesheet" type="text/css" href="../../_static/copybutton.css?v=76b2166b" />
-    <link rel="stylesheet" type="text/css" href="../../_static/mystnb.4510f1fc1dee50b3e5859aac5469c37c29e427902b24a333a5f9fcb2f0b3ac41.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/mystnb.4510f1fc1dee50b3e5859aac5469c37c29e427902b24a333a5f9fcb2f0b3ac41.css?v=be8a1c11" />
     <link rel="stylesheet" type="text/css" href="../../_static/sphinx-thebe.css?v=4fa983c6" />
     <link rel="stylesheet" type="text/css" href="../../_static/sphinx-design.min.css?v=95c83b7e" />
   
@@ -383,53 +383,53 @@ document.write(`
 thesis, and subsequent year as Post Doc at the University of Sydney, Australia,
 I worked mostly with the <a class="reference external" href="http://www.sciencedirect.com/science/article/pii/S0360128599000064">Conditional Moment Closure</a> (CMC), a
 state-of-the-art model that is used to capture turbulence-chemistry
-interactions (e.g., <span id="id1">[<a class="reference internal" href="#id43" title="Mikael Mortensen. Implementation of a conditional moment closure for mixing sensitive reactions. Chemical Engineering Science, 59(24):5709-5723, 2004. doi:10.1016/j.ces.2004.05.009.">Mortensen, 2004</a>, <a class="reference internal" href="#id44" title="Mikael Mortensen and Stephen M. de Bruyn Kops. Conditional velocity statistics in the double scalar mixing layer - a mapping closure approach. Combustion Theory and Modelling, 12(5):929-941, 2008. doi:10.1080/13647830802109100.">Mortensen and de Bruyn Kops, 2008</a>]</span>. From 2005-2006 I had the great honour of working with Prof. Robert W. Bilger as a Post Doctoral research fellow at the University of Sydney,
-Australia. In Sydney I worked on CMC for spray combustion <span id="id2">[<a class="reference internal" href="#id33" title="Mikael Mortensen and Robert W. Bilger. Derivation of the conditional moment closure equations for spray combustion. Combustion and Flame, 156(1):62-72, 2009. doi:10.1016/j.combustflame.2008.07.007.">Mortensen and Bilger, 2009</a>]</span> and a
+interactions (e.g., <span id="id1">[<a class="reference internal" href="#id44" title="Mikael Mortensen. Implementation of a conditional moment closure for mixing sensitive reactions. Chemical Engineering Science, 59(24):5709-5723, 2004. doi:10.1016/j.ces.2004.05.009.">Mortensen, 2004</a>, <a class="reference internal" href="#id45" title="Mikael Mortensen and Stephen M. de Bruyn Kops. Conditional velocity statistics in the double scalar mixing layer - a mapping closure approach. Combustion Theory and Modelling, 12(5):929-941, 2008. doi:10.1080/13647830802109100.">Mortensen and de Bruyn Kops, 2008</a>]</span>. From 2005-2006 I had the great honour of working with Prof. Robert W. Bilger as a Post Doctoral research fellow at the University of Sydney,
+Australia. In Sydney I worked on CMC for spray combustion <span id="id2">[<a class="reference internal" href="#id34" title="Mikael Mortensen and Robert W. Bilger. Derivation of the conditional moment closure equations for spray combustion. Combustion and Flame, 156(1):62-72, 2009. doi:10.1016/j.combustflame.2008.07.007.">Mortensen and Bilger, 2009</a>]</span> and a
 version of my consistent turbulent mixer model
-<span id="id3">[<a class="reference internal" href="#id42" title="Mikael Mortensen. Consistent modeling of scalar mixing for presumed, multiple parameter probability density functions. Physics of Fluids, 17(1):018106, 2005. doi:10.1063/1.1829311.">Mortensen, 2005</a>]</span> that I have called the
-presumed mapping function approach <span id="id4">[<a class="reference internal" href="#id41" title="Mikael Mortensen and Bengt Andersson. Presumed mapping functions for eulerian modelling of turbulent mixing. Flow, Turbulence and Combustion, 76(2):199–219, Mar 2006. doi:10.1007/s10494-006-9011-0.">Mortensen and Andersson, 2006</a>, <a class="reference internal" href="#id34" title="Ahmad El Sayed, Mikael Mortensen, and John Z. Wen. Assessment of the presumed mapping function approach for the stationary laminar flamelet modelling of reacting double scalar mixing layers. Combustion Theory and Modelling, 18(4-5):552-581, 2014. doi:10.1080/13647830.2014.939229.">Sayed <em>et al.</em>, 2014</a>]</span>. The
+<span id="id3">[<a class="reference internal" href="#id43" title="Mikael Mortensen. Consistent modeling of scalar mixing for presumed, multiple parameter probability density functions. Physics of Fluids, 17(1):018106, 2005. doi:10.1063/1.1829311.">Mortensen, 2005</a>]</span> that I have called the
+presumed mapping function approach <span id="id4">[<a class="reference internal" href="#id42" title="Mikael Mortensen and Bengt Andersson. Presumed mapping functions for eulerian modelling of turbulent mixing. Flow, Turbulence and Combustion, 76(2):199–219, Mar 2006. doi:10.1007/s10494-006-9011-0.">Mortensen and Andersson, 2006</a>, <a class="reference internal" href="#id35" title="Ahmad El Sayed, Mikael Mortensen, and John Z. Wen. Assessment of the presumed mapping function approach for the stationary laminar flamelet modelling of reacting double scalar mixing layers. Combustion Theory and Modelling, 18(4-5):552-581, 2014. doi:10.1080/13647830.2014.939229.">Sayed <em>et al.</em>, 2014</a>]</span>. The
 presumed mapping functions have been implemented in the open source package
 <a class="reference external" href="http://launchpad.net/pmfpack">PMFpack</a>, available under a GNU Lesser General Public License.
 My work on CMC led to several papers in collaboration with <a class="reference external" href="https://mie.umass.edu/faculty/stephen-de-bruyn-kops">Prof. Steve de Bruyn
 Kops</a>, using very large Direct Numerical Simulations to validate
-turbulence-chemistry models <span id="id5">[<a class="reference internal" href="#id36" title="Chong M. Cha, Stephen M. de Bruyn Kops, and Mikael Mortensen. Direct numerical simulations of the double scalar mixing layer. part i: passive scalar mixing and dissipation. Physics of Fluids, 18(6):067106, 2006. doi:10.1063/1.2213887.">Cha <em>et al.</em>, 2006</a>, <a class="reference internal" href="#id37" title="Stephen M. de Bruyn Kops and Mikael Mortensen. Conditional mixing statistics in a self-similar scalar mixing layer. Physics of Fluids, 17(9):095107, 2005. doi:10.1063/1.2055467.">de Bruyn Kops and Mortensen, 2005</a>, <a class="reference internal" href="#id35" title="Mikael Mortensen, Stephen M. de Bruyn Kops, and Chong M. Cha. Direct numerical simulations of the double scalar mixing layer: part ii: reactive scalars. Combustion and flame, 149(4):392–408, 2007. doi:10.1016/j.combustflame.2007.03.001.">Mortensen <em>et al.</em>, 2007</a>]</span>.</p>
+turbulence-chemistry models <span id="id5">[<a class="reference internal" href="#id37" title="Chong M. Cha, Stephen M. de Bruyn Kops, and Mikael Mortensen. Direct numerical simulations of the double scalar mixing layer. part i: passive scalar mixing and dissipation. Physics of Fluids, 18(6):067106, 2006. doi:10.1063/1.2213887.">Cha <em>et al.</em>, 2006</a>, <a class="reference internal" href="#id38" title="Stephen M. de Bruyn Kops and Mikael Mortensen. Conditional mixing statistics in a self-similar scalar mixing layer. Physics of Fluids, 17(9):095107, 2005. doi:10.1063/1.2055467.">de Bruyn Kops and Mortensen, 2005</a>, <a class="reference internal" href="#id36" title="Mikael Mortensen, Stephen M. de Bruyn Kops, and Chong M. Cha. Direct numerical simulations of the double scalar mixing layer: part ii: reactive scalars. Combustion and flame, 149(4):392–408, 2007. doi:10.1016/j.combustflame.2007.03.001.">Mortensen <em>et al.</em>, 2007</a>]</span>.</p>
 <section id="references">
 <h2>References<a class="headerlink" href="#references" title="Link to this heading">#</a></h2>
 <div class="docutils container" id="id6">
 <div role="list" class="citation-list">
-<div class="citation" id="id36" role="doc-biblioentry">
+<div class="citation" id="id37" role="doc-biblioentry">
 <span class="label"><span class="fn-bracket">[</span><a role="doc-backlink" href="#id5">CdBKM06</a><span class="fn-bracket">]</span></span>
 <p>Chong M. Cha, Stephen M. de Bruyn Kops, and Mikael Mortensen. Direct numerical simulations of the double scalar mixing layer. part i: passive scalar mixing and dissipation. <em>Physics of Fluids</em>, 18(6):067106, 2006. <a class="reference external" href="https://doi.org/10.1063/1.2213887">doi:10.1063/1.2213887</a>.</p>
 </div>
-<div class="citation" id="id37" role="doc-biblioentry">
+<div class="citation" id="id38" role="doc-biblioentry">
 <span class="label"><span class="fn-bracket">[</span><a role="doc-backlink" href="#id5">dBKM05</a><span class="fn-bracket">]</span></span>
 <p>Stephen M. de Bruyn Kops and Mikael Mortensen. Conditional mixing statistics in a self-similar scalar mixing layer. <em>Physics of Fluids</em>, 17(9):095107, 2005. <a class="reference external" href="https://doi.org/10.1063/1.2055467">doi:10.1063/1.2055467</a>.</p>
 </div>
-<div class="citation" id="id43" role="doc-biblioentry">
+<div class="citation" id="id44" role="doc-biblioentry">
 <span class="label"><span class="fn-bracket">[</span><a role="doc-backlink" href="#id1">Mor04</a><span class="fn-bracket">]</span></span>
 <p>Mikael Mortensen. Implementation of a conditional moment closure for mixing sensitive reactions. <em>Chemical Engineering Science</em>, 59(24):5709–5723, 2004. <a class="reference external" href="https://doi.org/10.1016/j.ces.2004.05.009">doi:10.1016/j.ces.2004.05.009</a>.</p>
 </div>
-<div class="citation" id="id42" role="doc-biblioentry">
+<div class="citation" id="id43" role="doc-biblioentry">
 <span class="label"><span class="fn-bracket">[</span><a role="doc-backlink" href="#id3">Mor05</a><span class="fn-bracket">]</span></span>
 <p>Mikael Mortensen. Consistent modeling of scalar mixing for presumed, multiple parameter probability density functions. <em>Physics of Fluids</em>, 17(1):018106, 2005. <a class="reference external" href="https://doi.org/10.1063/1.1829311">doi:10.1063/1.1829311</a>.</p>
 </div>
-<div class="citation" id="id41" role="doc-biblioentry">
+<div class="citation" id="id42" role="doc-biblioentry">
 <span class="label"><span class="fn-bracket">[</span><a role="doc-backlink" href="#id4">MA06</a><span class="fn-bracket">]</span></span>
 <p>Mikael Mortensen and Bengt Andersson. Presumed mapping functions for eulerian modelling of turbulent mixing. <em>Flow, Turbulence and Combustion</em>, 76(2):199–219, Mar 2006. <a class="reference external" href="https://doi.org/10.1007/s10494-006-9011-0">doi:10.1007/s10494-006-9011-0</a>.</p>
 </div>
-<div class="citation" id="id33" role="doc-biblioentry">
+<div class="citation" id="id34" role="doc-biblioentry">
 <span class="label"><span class="fn-bracket">[</span><a role="doc-backlink" href="#id2">MB09</a><span class="fn-bracket">]</span></span>
 <p>Mikael Mortensen and Robert W. Bilger. Derivation of the conditional moment closure equations for spray combustion. <em>Combustion and Flame</em>, 156(1):62–72, 2009. <a class="reference external" href="https://doi.org/10.1016/j.combustflame.2008.07.007">doi:10.1016/j.combustflame.2008.07.007</a>.</p>
 </div>
-<div class="citation" id="id44" role="doc-biblioentry">
+<div class="citation" id="id45" role="doc-biblioentry">
 <span class="label"><span class="fn-bracket">[</span><a role="doc-backlink" href="#id1">MdBK08</a><span class="fn-bracket">]</span></span>
 <p>Mikael Mortensen and Stephen M. de Bruyn Kops. Conditional velocity statistics in the double scalar mixing layer - a mapping closure approach. <em>Combustion Theory and Modelling</em>, 12(5):929–941, 2008. <a class="reference external" href="https://doi.org/10.1080/13647830802109100">doi:10.1080/13647830802109100</a>.</p>
 </div>
-<div class="citation" id="id35" role="doc-biblioentry">
+<div class="citation" id="id36" role="doc-biblioentry">
 <span class="label"><span class="fn-bracket">[</span><a role="doc-backlink" href="#id5">MdBKC07</a><span class="fn-bracket">]</span></span>
 <p>Mikael Mortensen, Stephen M. de Bruyn Kops, and Chong M. Cha. Direct numerical simulations of the double scalar mixing layer: part ii: reactive scalars. <em>Combustion and flame</em>, 149(4):392–408, 2007. <a class="reference external" href="https://doi.org/10.1016/j.combustflame.2007.03.001">doi:10.1016/j.combustflame.2007.03.001</a>.</p>
 </div>
-<div class="citation" id="id34" role="doc-biblioentry">
+<div class="citation" id="id35" role="doc-biblioentry">
 <span class="label"><span class="fn-bracket">[</span><a role="doc-backlink" href="#id4">SMW14</a><span class="fn-bracket">]</span></span>
 <p>Ahmad El Sayed, Mikael Mortensen, and John Z. Wen. Assessment of the presumed mapping function approach for the stationary laminar flamelet modelling of reacting double scalar mixing layers. <em>Combustion Theory and Modelling</em>, 18(4-5):552–581, 2014. <a class="reference external" href="https://doi.org/10.1080/13647830.2014.939229">doi:10.1080/13647830.2014.939229</a>.</p>
 </div>
