@@ -25,6 +25,8 @@ often as possible in teaching and scientific computing.
 
 ## Recent highlights
 
+  * 12/6 2024 I presented Shenfun at the University of Thessaly, Greece.
+
   * 21/10 2023 [A global spectral-Galerkin investigation of a Rayleigh–Taylor instability in plasma using an MHD–Boussinesq model](https://10.1063/5.0155976) by Anna Piterskaya, Wojciech J Miloch and Mikael Mortensen published by AIP Advances.
 
   * 10/6 2023 [Effective control of two-dimensional Rayleigh--Bénard convection: invariant multi-agent reinforcement learning is all you need](https://arxiv.org/abs/2304.02370) by Colin Vignon, Jean Rabault, Joel Vasanth, Francisco Alcántara-Ávila, Mikael Mortensen and Ricardo Vinuesa. Paper accepted for publication by Physics of Fluids.
@@ -195,9 +197,9 @@ often as possible in teaching and scientific computing.
 
   * 29/5 2017 Sebastian Gjertsen defended his master thesis *Development of a Verified and Validated Computational Framework for Fluid-Structure Interaction: Investigating Lifting Operators and Numerical Stability*.
 
-  * 24/5 2017 [I presented](https://pccfd.kaust.edu.sa/speaker?si=4) the [spectralDNS](research/spectralDNS.html#spectraldns) project at the Predictive Complex Computational Fluid Dynamics conference at KAUST.
+  * 24/5 2017 [I presented](https://pccfd.kaust.edu.sa/speaker?si=4) the [spectralDNS](https://mikaem.github.io/content/research/spectraldns.html#spectraldns) project at the Predictive Complex Computational Fluid Dynamics conference at KAUST.
 
-  * 12/5 2017 I presented [shenfun](research/spectralDNS.html#shenfun) at MekIT'17.
+  * 12/5 2017 I presented [shenfun](https://mikaem.github.io/content/research/spectraldns.html#shenfun) at MekIT'17.
 
   * 12/5 2017 Christopher Friedemann presented his work on two-phase annulus flow at MekIT'17.
 
