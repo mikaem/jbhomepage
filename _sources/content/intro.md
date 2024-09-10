@@ -25,7 +25,7 @@ often as possible in teaching and scientific computing.
 
 ## Recent highlights
 
-  * 8/9 2024 [A faster multipole Legendre-Chebyshev transform](https://github.com/mikaem/SISC-Legendre-to-Chebyshev/blob/main/FMM_paper.pdf) by Mikael Mortensen was accepted by SIAM Journal on Scientific Computing
+  * 8/9 2024 [A Faster Multipole Legendre-Chebyshev Transform](https://github.com/mikaem/SISC-Legendre-to-Chebyshev/blob/main/FMM_paper.pdf) by Mikael Mortensen was accepted by SIAM Journal on Scientific Computing
 
   * 12/6 2024 I presented Shenfun at the University of Thessaly, Greece.
 
@@ -43,7 +43,7 @@ often as possible in teaching and scientific computing.
 
 ## News
 
-  * 8/9 2024 [A faster multipole Legendre-Chebyshev transform](https://github.com/mikaem/SISC-Legendre-to-Chebyshev/blob/main/FMM_paper.pdf) by Mikael Mortensen was accepted by SIAM Journal on Scientific Computing
+  * 8/9 2024 [A Faster Multipole Legendre-Chebyshev Transform](https://github.com/mikaem/SISC-Legendre-to-Chebyshev/blob/main/FMM_paper.pdf) by Mikael Mortensen was accepted by SIAM Journal on Scientific Computing
   
   * 12/6 2024 I presented Shenfun at the University of Thessaly, Greece.
 
