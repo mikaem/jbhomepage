@@ -25,13 +25,15 @@ often as possible in teaching and scientific computing.
 
 ## Recent highlights
 
+  * 8/9 2024 [A faster multipole Legendre-Chebyshev transform](https://github.com/mikaem/SISC-Legendre-to-Chebyshev/blob/main/FMM_paper.pdf) by Mikael Mortensen was accepted by SIAM Journal on Scientific Computing
+
   * 12/6 2024 I presented Shenfun at the University of Thessaly, Greece.
 
   * 21/10 2023 [A global spectral-Galerkin investigation of a Rayleigh–Taylor instability in plasma using an MHD–Boussinesq model](https://10.1063/5.0155976) by Anna Piterskaya, Wojciech J Miloch and Mikael Mortensen published by AIP Advances.
 
   * 10/6 2023 [Effective control of two-dimensional Rayleigh--Bénard convection: invariant multi-agent reinforcement learning is all you need](https://arxiv.org/abs/2304.02370) by Colin Vignon, Jean Rabault, Joel Vasanth, Francisco Alcántara-Ávila, Mikael Mortensen and Ricardo Vinuesa. Paper accepted for publication by Physics of Fluids.
 
-  * 30/8 2022 [A generic and strictly banded spectral Petrov-Galerkin method for differential equations with polynomial coefficients](https://github.com/spectralDNS/PG-paper-2022/blob/main/PGpaper.pdf) by Mikael Mortensen was accepted for publication by SIAM Journal on Scientific Computing
+  * 30/8 2022 [A generic and strictly banded spectral Petrov-Galerkin method for differential equations with polynomial coefficients](https://epubs.siam.org/doi/full/10.1137/22M1492842) by Mikael Mortensen was accepted for publication by SIAM Journal on Scientific Computing
 
   * 21/6 2021 Japan-Norway Partnership for Computing in Space Science receives 10 MNOK in funding from the Research Council of Norway!
 
@@ -40,6 +42,10 @@ often as possible in teaching and scientific computing.
 +++
 
 ## News
+
+  * 8/9 2024 [A faster multipole Legendre-Chebyshev transform](https://github.com/mikaem/SISC-Legendre-to-Chebyshev/blob/main/FMM_paper.pdf) by Mikael Mortensen was accepted by SIAM Journal on Scientific Computing
+  
+  * 12/6 2024 I presented Shenfun at the University of Thessaly, Greece.
 
   * 2/11 2023 Jacob H Hudtwalcker defended his master thesis *Large Eddy Simulation of Turbulence in Helically Coiled Pipes: Effects of Mesh Strategy*.
 
