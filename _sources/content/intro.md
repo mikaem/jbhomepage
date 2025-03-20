@@ -43,6 +43,8 @@ often as possible in teaching and scientific computing.
 
 ## News
 
+  * 19/3 2025 [Anna Piterskaya defended her PhD thesis](https://www.mn.uio.no/math/english/research/news-and-events/events/disputations/2025/Anna%20Piterskaya)
+   
   * 8/9 2024 [A Faster Multipole Legendre-Chebyshev Transform](https://github.com/mikaem/SISC-Legendre-to-Chebyshev/blob/main/FMM_paper.pdf) by Mikael Mortensen was accepted by SIAM Journal on Scientific Computing
   
   * 12/6 2024 I presented Shenfun at the University of Thessaly, Greece.
