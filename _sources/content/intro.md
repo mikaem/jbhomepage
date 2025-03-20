@@ -51,7 +51,7 @@ often as possible in teaching and scientific computing.
 
   * 14/12 2024 [Multi-agent Reinforcement Learning for the Control of Three-Dimensional Rayleigh–Bénard Convection](https://link-springer-com.ezproxy.uio.no/article/10.1007/s10494-024-00619-2) by J Vasanth, J Rabault, F Alcantara-Avila, M Mortensen and R Vinuesa was published by Flow, Turbulence and Combustion 
 
-  * 9/11 - 2024 [A study of the Orr–Sommerfeld and induction equations by Galerkin and Petrov–Galerkin spectral methods utilizing Chebyshev polynomials](https://www-sciencedirect-com.ezproxy.uio.no/science/article/pii/S0377042724006228) by Anna Piterskaya and Mikael Mortensen was published by the Journal of Computational and Applied Mathematics.
+  * 9/11 2024 [A study of the Orr–Sommerfeld and induction equations by Galerkin and Petrov–Galerkin spectral methods utilizing Chebyshev polynomials](https://www-sciencedirect-com.ezproxy.uio.no/science/article/pii/S0377042724006228) by Anna Piterskaya and Mikael Mortensen was published by the Journal of Computational and Applied Mathematics.
 
   * 16/9 2024 [14th Kobe-Oslo workshop on numerical simulations of rocket-plasma interactions](https://www.mn.uio.no/fysikk/english/research/projects/4dspace/education/04_japan-norway.html) started in Oslo, Norway, with 20 Norwegian and Japanese students. 
 
