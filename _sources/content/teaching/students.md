@@ -24,9 +24,9 @@ Current and previous students of mine are listed below.
 
   * Matthias Rauter (2017 - 2021) [Numerical simulations of granular flows and their interaction with water bodies](https://www.duo.uio.no/handle/10852/90158)
 
-  * Anna Pitterskaya (2019 - 2025) [Plasma Instabilities and Turbulence with Magneto-Hydrodynamics and Spectral Numerical Simulations](https://www.duo.uio.no/handle/10852/117673)
+  * Anna Piterskaya (2019 - 2025) [Plasma Instabilities and Turbulence with Magneto-Hydrodynamics and Spectral Numerical Simulations](https://www.duo.uio.no/handle/10852/117673)
 
-  * Henrik Kjeldsberg Aasen (2020 - )
+  * Henrik Kjeldsberg Aasen (2020 - 2025) *The Clot Thickens Investigating Thrombus Formation Through Left Atrial Flow Simulations*
 
   * Kristian Holme (2024 - )
 
