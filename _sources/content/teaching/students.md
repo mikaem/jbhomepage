@@ -24,9 +24,12 @@ Current and previous students of mine are listed below.
 
   * Matthias Rauter (2017 - 2021) [Numerical simulations of granular flows and their interaction with water bodies](https://www.duo.uio.no/handle/10852/90158)
 
-  * Anna Pitterskaya (2019 - )
+  * Anna Pitterskaya (2019 - 2025) [Plasma Instabilities and Turbulence with Magneto-Hydrodynamics and Spectral Numerical Simulations](https://www.duo.uio.no/handle/10852/117673)
 
   * Henrik Kjeldsberg Aasen (2020 - )
+
+  * Kristian Holme (2024 - )
+
 
 ## Master students
 
@@ -77,3 +80,5 @@ Current and previous students of mine are listed below.
   23. Jacob Henrik Hudtwalcker [Large eddy simulation of turbulence in helically coiled pipes: effects of mesh strategy](https://www.mn.uio.no/math/studier/aktuelt/arrangementer/master-2023/mastereksamen-MEK-ems-hudtwalcker.html) (2022 - 2023)
 
   24. Jacob Teodor Steffansson Langmoen [Turbulent flow past an edged geometry](https://www.mn.uio.no/math/studier/aktuelt/arrangementer/master-2023/mastereksamen-MEK-ems-langmoen.html) (2022 - 2023)
+
+  25. August Femtehjell (2024 - )
