@@ -45,6 +45,8 @@ often as possible in teaching and scientific computing.
 
 ## News
 
+  * 16/6 2025 [15th Kobe-Oslo workshop on numerical simulations of rocket-plasma interactions](https://www.mn.uio.no/fysikk/english/research/projects/4dspace/education/04_japan-norway-intpart.html) started in Kobe, Japan, with 20 Norwegian and Japanese students.
+
   * 19/3 2025 [Anna Piterskaya defended her PhD thesis](https://www.mn.uio.no/math/english/research/news-and-events/events/disputations/2025/Anna%20Piterskaya)
 
   * 17/3 2025 [2nd Kobe-Oslo School on Space Mission Data Analysis](https://www.mn.uio.no/fysikk/english/research/projects/4dspace/education/04_japan-norway-intpart.html) started in Oslo, Norway, with 20 Norwegian and Japanese students.
@@ -53,7 +55,7 @@ often as possible in teaching and scientific computing.
 
   * 9/11 2024 [A study of the Orr–Sommerfeld and induction equations by Galerkin and Petrov–Galerkin spectral methods utilizing Chebyshev polynomials](https://www-sciencedirect-com.ezproxy.uio.no/science/article/pii/S0377042724006228) by Anna Piterskaya and Mikael Mortensen was published by the Journal of Computational and Applied Mathematics.
 
-  * 16/9 2024 [14th Kobe-Oslo workshop on numerical simulations of rocket-plasma interactions](https://www.mn.uio.no/fysikk/english/research/projects/4dspace/education/04_japan-norway.html) started in Oslo, Norway, with 20 Norwegian and Japanese students. 
+  * 16/9 2024 [14th Kobe-Oslo workshop on numerical simulations of rocket-plasma interactions](https://www.mn.uio.no/fysikk/english/research/projects/4dspace/education/04_japan-norway-intpart.html) started in Oslo, Norway, with 20 Norwegian and Japanese students. 
 
   * 8/9 2024 [A Faster Multipole Legendre-Chebyshev Transform](https://github.com/mikaem/SISC-Legendre-to-Chebyshev/blob/main/FMM_paper.pdf) by Mikael Mortensen was accepted by SIAM Journal on Scientific Computing
 
