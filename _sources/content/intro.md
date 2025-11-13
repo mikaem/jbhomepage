@@ -13,13 +13,13 @@
 
 Welcome to my homepage! I work as a Professor in Fluid Mechanics at the [Department of
 Mathematics, University of Oslo](http://mn.uio.no/math). My primary interests
-are Computational Fluid Dynamics (CFD) and the many aspects of turbulent fluid
+are Computational Fluid Dynamics (CFD), scientific computing and the many aspects of turbulent fluid
 flows, ranging from physics, modeling, numerical methods,
 software implementation and applications. I spend part of my time within the
 [4DSpace](http://www.mn.uio.no/fysikk/english/research/projects/4dspace/)
 strategic research initiative, where we study instabilities and turbulence in
 the polar ionosphere. I am also a Python enthusiast and I use this language as
-often as possible in teaching and scientific computing.
+often as possible in teaching and scientific computing. Lately I have become very interested in scientific machine learning and its applications to fluid mechanics.
 
 +++
 
@@ -51,19 +51,19 @@ often as possible in teaching and scientific computing.
 
   * 17/3 2025 [2nd Kobe-Oslo School on Space Mission Data Analysis](https://www.mn.uio.no/fysikk/english/research/projects/4dspace/education/04_japan-norway-intpart.html) started in Oslo, Norway, with 20 Norwegian and Japanese students.
 
-  * 14/12 2024 [Multi-agent Reinforcement Learning for the Control of Three-Dimensional Rayleigh–Bénard Convection](https://link-springer-com.ezproxy.uio.no/article/10.1007/s10494-024-00619-2) by J Vasanth, J Rabault, F Alcantara-Avila, M Mortensen and R Vinuesa was published by Flow, Turbulence and Combustion 
+  * 14/12 2024 [Multi-agent Reinforcement Learning for the Control of Three-Dimensional Rayleigh–Bénard Convection](https://link-springer-com.ezproxy.uio.no/article/10.1007/s10494-024-00619-2) by J Vasanth, J Rabault, F Alcantara-Avila, M Mortensen and R Vinuesa was published by Flow, Turbulence and Combustion
 
   * 9/11 2024 [A study of the Orr–Sommerfeld and induction equations by Galerkin and Petrov–Galerkin spectral methods utilizing Chebyshev polynomials](https://www-sciencedirect-com.ezproxy.uio.no/science/article/pii/S0377042724006228) by Anna Piterskaya and Mikael Mortensen was published by the Journal of Computational and Applied Mathematics.
 
-  * 16/9 2024 [14th Kobe-Oslo workshop on numerical simulations of rocket-plasma interactions](https://www.mn.uio.no/fysikk/english/research/projects/4dspace/education/04_japan-norway-intpart.html) started in Oslo, Norway, with 20 Norwegian and Japanese students. 
+  * 16/9 2024 [14th Kobe-Oslo workshop on numerical simulations of rocket-plasma interactions](https://www.mn.uio.no/fysikk/english/research/projects/4dspace/education/04_japan-norway-intpart.html) started in Oslo, Norway, with 20 Norwegian and Japanese students.
 
   * 8/9 2024 [A Faster Multipole Legendre-Chebyshev Transform](https://github.com/mikaem/SISC-Legendre-to-Chebyshev/blob/main/FMM_paper.pdf) by Mikael Mortensen was accepted by SIAM Journal on Scientific Computing
 
   * 24/6 2024 [13th Kobe-Oslo workshop on numerical simulations of rocket-plasma interactions](https://www.mn.uio.no/fysikk/english/research/projects/4dspace/education/04_japan-norway.html) started in Kobe, Japan, with 20 Norwegian and Japanese students.
-  
+
   * 12/6 2024 I presented Shenfun at the University of Thessaly, Greece.
 
-  * 21/4 2024 [First Kobe-Oslo School on Space Mission Data Analysis](https://www.mn.uio.no/fysikk/english/research/projects/4dspace/education/04_japan-norway-intpart.html) started in Kyoto, Japan, with 20 Norwegian and Japanese students. 
+  * 21/4 2024 [First Kobe-Oslo School on Space Mission Data Analysis](https://www.mn.uio.no/fysikk/english/research/projects/4dspace/education/04_japan-norway-intpart.html) started in Kyoto, Japan, with 20 Norwegian and Japanese students.
 
   * 2/11 2023 Jacob H Hudtwalcker defended his master thesis *Large Eddy Simulation of Turbulence in Helically Coiled Pipes: Effects of Mesh Strategy*.
 

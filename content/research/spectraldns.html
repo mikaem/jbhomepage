@@ -189,6 +189,7 @@
 <p aria-level="2" class="caption" role="heading"><span class="caption-text">Research</span></p>
 <ul class="current nav bd-sidenav">
 <li class="toctree-l1 current active"><a class="current reference internal" href="#">SpectralDNS</a></li>
+
 <li class="toctree-l1"><a class="reference internal" href="biomedical.html">Biomedical flows</a></li>
 <li class="toctree-l1"><a class="reference internal" href="cmc.html">Turbulent Combustion</a></li>
 <li class="toctree-l1"><a class="reference internal" href="plasma.html">4DSpace</a></li>
@@ -416,11 +417,18 @@ document.write(`
             </div>
             <nav aria-label="Page">
                 <ul class="visible nav section-nav flex-column">
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#">SpectralDNS</a><ul class="visible nav section-nav flex-column">
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#id1">spectralDNS</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#shenfun">Shenfun</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#mpi4py-fft">mpi4py-fft</a></li>
+</ul>
+</li>
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#jaxfun">Jaxfun</a><ul class="visible nav section-nav flex-column">
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#references">References</a></li>
 </ul>
+</li>
+</ul>
+
             </nav>
         </div>
     </div>
@@ -529,6 +537,12 @@ real-to-real transforms, like discrete cosine or sine transforms. Further docume
 <p>Number of downloads from conda-forge:</p>
 <p><a class="reference external" href="https://anaconda.org/conda-forge/mpi4py-fft"><img alt="Anaconda-Server Badge" src="https://anaconda.org/conda-forge/mpi4py-fft/badges/downloads.svg" /></a></p>
 </section>
+</section>
+<section class="tex2jax_ignore mathjax_ignore" id="jaxfun">
+<h1>Jaxfun<a class="headerlink" href="#jaxfun" title="Link to this heading">#</a></h1>
+<p>The <a class="reference external" href="https://github.com/spectralDNS/jaxfun">Jaxfun</a> repository is home to a new Spectral / Galerkin / PINNs experimentation toolkit built on top of JAX for fast differentiable ODE / PDE prototyping, variational forms, and mixed spectral bases. The code is written in pure Python and makes extensive use of JAX’s just-in-time compilation and automatic differentiation to achieve high performance on CPUs, GPUs and TPUs with minimal code.</p>
+<p>Jaxfun is currently under active development. Jaxfun includes a Sympy-based form-language that makes it easy to apply Physics-Informed Neural Networks (PINNs) to solve ODE/PDEs using both vanilla PINNs and more advanced Kolmogorov-Arnold representations.</p>
+<p><a class="reference external" href="https://github.com/spectralDNS/jaxfun/actions/workflows/pytest.yml"><img alt="Tests" src="https://github.com/spectralDNS/jaxfun/actions/workflows/pytest.yml/badge.svg" /></a></p>
 <section id="references">
 <h2>References<a class="headerlink" href="#references" title="Link to this heading">#</a></h2>
 <div class="docutils container" id="id13">
@@ -647,11 +661,18 @@ real-to-real transforms, like discrete cosine or sine transforms. Further docume
   </div>
   <nav class="bd-toc-nav page-toc">
     <ul class="visible nav section-nav flex-column">
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#">SpectralDNS</a><ul class="visible nav section-nav flex-column">
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#id1">spectralDNS</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#shenfun">Shenfun</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#mpi4py-fft">mpi4py-fft</a></li>
+</ul>
+</li>
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#jaxfun">Jaxfun</a><ul class="visible nav section-nav flex-column">
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#references">References</a></li>
 </ul>
+</li>
+</ul>
+
   </nav></div>
 
 </div></div>
