@@ -4,6 +4,7 @@ Here is a collection of links to more or less interesting codes for scientific c
 
 ## My codes
 
+- [jaxfun](https://github.com/spectralDNS/jaxfun)
 - [shenfun](https://shenfun.readthedocs.io/en/latest/)
 - [mpi4py-fft](https://mpi4py-fft.readthedocs.io/en/latest/)
 - [spectralDNS](https://github.com/spectralDNS/spectralDNS)

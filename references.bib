@@ -1,3 +1,64 @@
+@article{mortensen_siam25,
+author = {Mortensen, Mikael},
+title = {A Faster Multipole Legendre–Chebyshev Transform},
+journal = {SIAM Journal on Scientific Computing},
+volume = {46},
+number = {6},
+pages = {A3803-A3826},
+year = {2024},
+doi = {10.1137/24M1659352},
+}
+
+@article{alpert1991fast,
+  title={A fast algorithm for the evaluation of Legendre expansions},
+  author={Alpert, Bradley K and Rokhlin, Vladimir},
+  journal={SIAM Journal on Scientific and Statistical Computing},
+  volume={12},
+  number={1},
+  pages={158--179},
+  year={1991},
+  publisher={SIAM}
+}
+
+@article{vignon2023,
+    author = {Vignon, Colin and Rabault, Jean and Vasanth, Joel and Alcántara-Ávila, Francisco and Mortensen, Mikael and Vinuesa, Ricardo},
+    title = "{Effective control of two-dimensional Rayleigh–Bénard convection: Invariant multi-agent reinforcement learning is all you need}",
+    journal = {Physics of Fluids},
+    volume = {35},
+    number = {6},
+    pages = {065146},
+    year = {2023},
+    month = {06},
+    abstract = "{Rayleigh–Bénard convection (RBC) is a recurrent phenomenon in a number of industrial and geoscience flows and a well-studied system from a fundamental fluid-mechanics viewpoint. In the present work, we conduct numerical simulations to apply deep reinforcement learning (DRL) for controlling two-dimensional RBC using sensor-based feedback control. We show that effective RBC control can be obtained by leveraging invariant multi-agent reinforcement learning (MARL), which takes advantage of the locality and translational invariance inherent to RBC flows inside wide channels. MARL applied to RBC allows for an increase in the number of control segments without encountering the curse of dimensionality that would result from a naive increase in the DRL action-size dimension. This is made possible by the MARL ability for re-using the knowledge generated in different parts of the RBC domain. MARL is able to discover an advanced control strategy that destabilizes the spontaneous RBC double-cell pattern, changes the topology of RBC by coalescing adjacent convection cells, and actively controls the resulting coalesced cell to bring it to a new stable configuration. This modified flow configuration results in reduced convective heat transfer, which is beneficial in a number of industrial processes. We additionally draw comparisons with a conventional single-agent reinforcement learning (SARL) setup and report that in the same number of episodes, SARL is not able to learn an effective policy to control the cells. Thus, our work both shows the potential of MARL for controlling large RBC systems and demonstrates the possibility for DRL to discover strategies that move the RBC configuration between different topological configurations, yielding desirable heat-transfer characteristics.}",
+    issn = {1070-6631},
+    doi = {10.1063/5.0153181}
+}
+
+
+@article{vasanth2024,
+	abstract = {Deep reinforcement learning (DRL) has found application in numerous use-cases pertaining to flow control. Multi-agent RL (MARL), a variant of DRL, has shown to be more effective than single-agent RL in controlling flows exhibiting locality and translational invariance. We present, for the first time, an implementation of MARL-based control of three-dimensional Rayleigh--B{\'e}nard convection (RBC). Control is executed by modifying the temperature distribution along the bottom wall divided into multiple control segments, each of which acts as an independent agent. Two regimes of RBC are considered at Rayleigh numbers {\$}{\$}{$\backslash$}textrm{\{}Ra{\}}=500{\$}{\$}and 750. Evaluation of the learned control policy reveals a reduction in convection intensity by {\$}{\$}23.5{$\backslash$}{\%}{\$}{\$}and {\$}{\$}8.7{$\backslash$}{\%}{\$}{\$}at {\$}{\$}{$\backslash$}textrm{\{}Ra{\}}=500{\$}{\$}and 750, respectively. The MARL controller converts irregularly shaped convective patterns to regular straight rolls with lower convection that resemble flow in a relatively more stable regime. We draw comparisons with proportional control at both {\$}{\$}{$\backslash$}textrm{\{}Ra{\}}{\$}{\$}and show that MARL is able to outperform the proportional controller. The learned control strategy is complex, featuring different non-linear segment-wise actuator delays and actuation magnitudes. We also perform successful evaluations on a larger domain than used for training, demonstrating that the invariant property of MARL allows direct transfer of the learnt policy.},
+	author = {Vasanth, Joel and Rabault, Jean and Alc{\'a}ntara-{\'A}vila, Francisco and Mortensen, Mikael and Vinuesa, Ricardo},
+	date = {2024/12/14},
+	doi = {10.1007/s10494-024-00619-2},
+	isbn = {1573-1987},
+	journal = {Flow, Turbulence and Combustion},
+	title = {Multi-agent Reinforcement Learning for the Control of Three-Dimensional Rayleigh--B{\'e}nard Convection},
+	url = {https://doi.org/10.1007/s10494-024-00619-2},
+	year = {2024},
+}
+
+@article{Piterskaya2025,
+title = {A study of the Orr–Sommerfeld and induction equations by Galerkin and Petrov–Galerkin spectral methods utilizing Chebyshev polynomials},
+journal = {Journal of Computational and Applied Mathematics},
+volume = {459},
+pages = {116374},
+year = {2025},
+issn = {0377-0427},
+doi = {https://doi.org/10.1016/j.cam.2024.116374},
+author = {Anna Piterskaya and Mikael Mortensen},
+}
+
+
 @article{friedemann2021,
 title = {Two-phase co-current flow simulations using periodic boundary conditions in horizontal, 4, 10 and 90° inclined eccentric annulus, flow prediction using a modified interFoam solver and comparison with experimental results},
 journal = {International Journal of Heat and Fluid Flow},
