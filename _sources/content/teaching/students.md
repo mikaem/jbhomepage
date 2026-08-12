@@ -81,4 +81,9 @@ Current and previous students of mine are listed below.
 
   24. Jacob Teodor Steffansson Langmoen [Turbulent flow past an edged geometry](https://www.mn.uio.no/math/studier/aktuelt/arrangementer/master-2023/mastereksamen-MEK-ems-langmoen.html) (2022 - 2023)
 
-  25. August Femtehjell (2024 - )
+  25. August Femtehjell [DiscoNets: Discretization-Consistent Structure-Conserving Networks](https://hdl.handle.net/11250/5543032) (2024 - 2026)
+
+  26. Hamzeh Asfar (2025 - )
+
+  27. Henrik Haug (2025 - )
+
