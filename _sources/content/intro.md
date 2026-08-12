@@ -25,13 +25,13 @@ often as possible in teaching and scientific computing. Lately I have become ver
 
 ## Recent highlights
 
+  * 1/2 2026 [A comparison of implicit–explicit Runge–Kutta time integration schemes in numerical solvers based on the Galerkin and Petrov–Galerkin spectral methods for two-dimensional magneto-hydrodynamic problems](https://www.sciencedirect.com/science/article/pii/S2590037426000014) by Anna Piterskaya and Mikael Mortensen published by Results in Applied Mathematics
+
+  * 20/1 2026 [The role of active Navier–Stokes angular momentum in identifying small-scale turbulence behavior](https://pubs.aip.org/aip/apl/article/128/3/032701/3377625) by George Sofiadis, Mikael Mortensen, Ioannis E. Sarris and Antonios Liakopoulos published by Applied Physics Letters
+
   * 19/3 2025 [Anna Piterskaya defended her PhD thesis](https://www.mn.uio.no/math/english/research/news-and-events/events/disputations/2025/Anna%20Piterskaya)
 
   * 8/9 2024 [A Faster Multipole Legendre-Chebyshev Transform](https://github.com/mikaem/SISC-Legendre-to-Chebyshev/blob/main/FMM_paper.pdf) by Mikael Mortensen was accepted by SIAM Journal on Scientific Computing
-
-  * 12/6 2024 I presented Shenfun at the University of Thessaly, Greece.
-
-  * 21/10 2023 [A global spectral-Galerkin investigation of a Rayleigh–Taylor instability in plasma using an MHD–Boussinesq model](https://10.1063/5.0155976) by Anna Piterskaya, Wojciech J Miloch and Mikael Mortensen published by AIP Advances.
 
   * 10/6 2023 [Effective control of two-dimensional Rayleigh--Bénard convection: invariant multi-agent reinforcement learning is all you need](https://arxiv.org/abs/2304.02370) by Colin Vignon, Jean Rabault, Joel Vasanth, Francisco Alcántara-Ávila, Mikael Mortensen and Ricardo Vinuesa. Paper accepted for publication by Physics of Fluids.
 
@@ -39,11 +39,19 @@ often as possible in teaching and scientific computing. Lately I have become ver
 
   * 21/6 2021 Japan-Norway Partnership for Computing in Space Science receives 10 MNOK in funding from the Research Council of Norway!
 
-  * 20/2 2019 [Fast parallel multidimensional FFT using advanced MPI](https://arxiv.org/abs/1804.09536) by Lisandro Dalcin, Mikael Mortensen and David E. Keyes, accepted for publication by [The Journal of Parallel and Distributed Computing](https://www.journals.elsevier.com/journal-of-parallel-and-distributed-computing).
-
 +++
 
 ## News
+
+  * 15/6 2026 [17th Kobe-Oslo workshop on numerical simulations of rocket-plasma interactions](https://www.mn.uio.no/fysikk/english/research/projects/4dspace/education/04_japan-norway-intpart.html) started in Kobe, Japan, with 20 Norwegian and Japanese students.
+
+  * 13/4 2026 [3rd 4DSpace School on Space Mission Data Analysis](https://www.mn.uio.no/fysikk/english/research/projects/4dspace/education/04_japan-norway-intpart.html) started in Kyoto, Japan, with 20 Norwegian and Japanese students.
+
+  * 1/2 2026 [A comparison of implicit–explicit Runge–Kutta time integration schemes in numerical solvers based on the Galerkin and Petrov–Galerkin spectral methods for two-dimensional magneto-hydrodynamic problems](https://www.sciencedirect.com/science/article/pii/S2590037426000014) by Anna Piterskaya and Mikael Mortensen published by Results in Applied Mathematics
+
+  * 20/1 2026 [The role of active Navier–Stokes angular momentum in identifying small-scale turbulence behavior](https://pubs.aip.org/aip/apl/article/128/3/032701/3377625) by George Sofiadis, Mikael Mortensen, Ioannis E. Sarris and Antonios Liakopoulos published by Applied Physics Letters
+
+  * 16/9 2025 [16th Kobe-Oslo workshop on numerical simulations of rocket-plasma interactions](https://www.mn.uio.no/fysikk/english/research/projects/4dspace/education/04_japan-norway-intpart.html) started in Oslo, Norway, with 20 Norwegian and Japanese students.
 
   * 16/6 2025 [15th Kobe-Oslo workshop on numerical simulations of rocket-plasma interactions](https://www.mn.uio.no/fysikk/english/research/projects/4dspace/education/04_japan-norway-intpart.html) started in Kobe, Japan, with 20 Norwegian and Japanese students.
 
