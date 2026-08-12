@@ -25,7 +25,7 @@ often as possible in teaching and scientific computing. Lately I have become ver
 
 ## Recent highlights
 
-  * 9/6 2026 [August Femtehjell defended his Master thesis **DiscoNets: Discretization-Consistent Structure-Conserving Networks**](https://hdl.handle.net/11250/5543032)
+  * 9/6 2026 [August Femtehjell defended his Master thesis: DiscoNets: Discretization-Consistent Structure-Conserving Networks](https://hdl.handle.net/11250/5543032)
 
   * 1/2 2026 [A comparison of implicit–explicit Runge–Kutta time integration schemes in numerical solvers based on the Galerkin and Petrov–Galerkin spectral methods for two-dimensional magneto-hydrodynamic problems](https://www.sciencedirect.com/science/article/pii/S2590037426000014) by Anna Piterskaya and Mikael Mortensen published by Results in Applied Mathematics
 
@@ -47,7 +47,7 @@ often as possible in teaching and scientific computing. Lately I have become ver
 
   * 15/6 2026 [17th Kobe-Oslo workshop on numerical simulations of rocket-plasma interactions](https://www.mn.uio.no/fysikk/english/research/projects/4dspace/education/04_japan-norway-intpart.html) started in Kobe, Japan, with 20 Norwegian and Japanese students.
 
-  * 9/6 2026 [August Femtehjell defended his Master thesis **DiscoNets: Discretization-Consistent Structure-Conserving Networks**](https://hdl.handle.net/11250/5543032)
+  * 9/6 2026 [August Femtehjell defended his Master thesis: DiscoNets: Discretization-Consistent Structure-Conserving Networks](https://hdl.handle.net/11250/5543032)
 
   * 13/4 2026 [3rd 4DSpace School on Space Mission Data Analysis](https://www.mn.uio.no/fysikk/english/research/projects/4dspace/education/04_japan-norway-intpart.html) started in Kyoto, Japan, with 20 Norwegian and Japanese students.
 
