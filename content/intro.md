@@ -233,9 +233,9 @@ often as possible in teaching and scientific computing. Lately I have become ver
 
   * 29/5 2017 Sebastian Gjertsen defended his master thesis *Development of a Verified and Validated Computational Framework for Fluid-Structure Interaction: Investigating Lifting Operators and Numerical Stability*.
 
-  * 24/5 2017 [I presented](https://pccfd.kaust.edu.sa/speaker?si=4) the [spectralDNS](https://mikaem.github.io/content/research/spectraldns.html#spectraldns) project at the Predictive Complex Computational Fluid Dynamics conference at KAUST.
+  * 24/5 2017 [I presented](https://pccfd.kaust.edu.sa/speaker?si=4) the [spectralDNS](research/spectraldns.md#spectraldns) project at the Predictive Complex Computational Fluid Dynamics conference at KAUST.
 
-  * 12/5 2017 I presented [shenfun](https://mikaem.github.io/content/research/spectraldns.html#shenfun) at MekIT'17.
+  * 12/5 2017 I presented [shenfun](research/spectraldns.md#shenfun) at MekIT'17.
 
   * 12/5 2017 Christopher Friedemann presented his work on two-phase annulus flow at MekIT'17.
 
