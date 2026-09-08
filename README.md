@@ -1,4 +1,4 @@
-# jbhomepage
+# Homepage Mikael Mortensen
 
 Source for the homepage of Professor Mikael Mortensen, built with
 [Jupyter Book 2](https://jupyterbook.org) (powered by [mystmd](https://mystmd.org)).
