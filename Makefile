@@ -12,7 +12,7 @@ help:
 	@echo "  clean       to clean out site build files"
 	@echo "  cleanall    to also clean caches and downloaded templates"
 	@echo "  ghpages     to build and push the site to the gh-pages branch"
-	@echo "  commit      to build and copy the site into ../mikaem.github.io"
+	@echo "  commit      to build and PUBLISH the site via ../mikaem.github.io"
 
 install:
 	uv sync
@@ -36,8 +36,21 @@ ghpages:
 	uv run ghp-import -n -p -f _build/html
 
 # Published at the root of https://mikaem.github.io, so no BASE_URL is needed.
+#
+# This target goes live: the Makefile in ../mikaem.github.io commits and
+# pushes, so review the site with `make serve` BEFORE running this.
+#
+# rsync mirrors (rather than copies over) the build, so pages that are no
+# longer generated are removed from the published site. Without --delete the
+# old Jupyter Book 1 output would stay live alongside the new site, and stale
+# URLs such as /content/research/spectraldns.html would keep serving frozen
+# v1 content instead of 404-ing. The excluded files belong to the deploy
+# repository itself and are never generated here; rsync protects excluded
+# paths from --delete.
 commit: html
-	cp -r _build/html/* ../mikaem.github.io/
+	rsync -a --delete \
+	    --exclude '.git' --exclude '.nojekyll' --exclude 'Makefile' \
+	    _build/html/ ../mikaem.github.io/
 	make -C ../mikaem.github.io
 
 # Conversion helpers, in case computational content is added back to the book
