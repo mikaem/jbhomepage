@@ -17,6 +17,4 @@ Moltke Moe's vei 35<br>
 
 *GitHub user:* `mikaem`<br>
 
-*Bitbucket user:* `mikael_mortensen`<br>
-
 *Google:* `mikael.mortensen@gmail.com`<br>
