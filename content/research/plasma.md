@@ -34,6 +34,5 @@ that incorporates electrically conducting objects into particle-in-cell simulati
 
 ## References
 
-```{bibliography} ../../references.bib
-:filter: docname in docnames
+```{bibliography}
 ```

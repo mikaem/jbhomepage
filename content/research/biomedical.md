@@ -2,12 +2,6 @@
 
 +++
 
-```{margin}
-![](../images/fenics_logo.png)
-```
-
-+++
-
 I have been working from 2012-2016 as an [adjunct research scientist](http://www.simula.no/people/mikaelmo) at [Simula Research Laboratory](http://www.simula.no). Here I had the great honor to be working with the late
 [Prof. Hans Petter Langtangen](https://hplgit.com/homepage)
 {cite}`Valen-Sendstad2011,Mortensen2016,Mortensen2012_transitional,mortensen_2011_awr`,
@@ -22,13 +16,11 @@ efficiency, with MPI, and it is written entirely in Python. The Oasis solver is 
 show that it may run as fast and accurate as the low-level finite volume
 C++ solvers OpenFOAM and CDP (Stanford).
 
-+++
-
-```{sidebar} CSF flow
-
-![](../images/scalar_anim.gif)
-
-**Injected drug** inside a CSF channel, computed using Oasis.
+```{margin}
+:::{image} ../images/fenics_logo.png
+:width: 240px
+:align: center
+:::
 ```
 
 +++
@@ -39,6 +31,13 @@ drugs in the Cerebrospinal fluid (CSF) {cite}`haga_2017`. The animation on the r
 shows how an injected drug moves up and down inside the CSF channel. It can also
 be seen that, due to the very low diffusivity of the scalar drug, we modelled the
 scalar transport using Lagrangian particle tracking.
+
+```{sidebar} CSF flow
+
+![](../images/scalar_anim.gif)
+
+**Injected drug** inside a CSF channel, computed using Oasis.
+```
 
 I have been working quite a bit together with [Kristian Valen-Sendstad](https://www.simula.no/people/kvs) at Simula, on different aspects of biomedical
 flows. Our simulations on intracranial aneurysms
@@ -52,6 +51,7 @@ For this work I performed most of the simulations when still at [FFI](https://ww
 ```{sidebar} Headlines
 
 ![](../images/stroke.jpg)
+
 **Headlines** in norwegian newspaper VG, 5/11-2011
 ```
 
@@ -67,14 +67,15 @@ number=3500. Here I have conducted the stability simulations using the
 [dog](http://users.monash.edu.au/~bburn/semtex.html) linear stability
 analysis software package.
 
-<p>Linear stability analysis of the FDA benchmark. Showing the most unstable eigenmode.</p>
+```{figure} ../images/rotated_separated_rainbow.png
+:label: lsa
 
-![](../images/rotated_separated_rainbow.png)
+Linear stability analysis of the FDA benchmark. Showing the most unstable eigenmode.
+```
 
 +++
 
 ## References
 
-```{bibliography} ../../references.bib
-:filter: docname in docnames
+```{bibliography}
 ```

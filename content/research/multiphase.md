@@ -25,6 +25,5 @@ Galerkin and divergence free setting. {cite}`tormod_fenics_2017,landet2020`
 
 ## References
 
-```{bibliography} ../../references.bib
-:filter: docname in docnames
+```{bibliography}
 ```

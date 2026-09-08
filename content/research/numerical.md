@@ -18,6 +18,5 @@ Also in SISC, the paper {cite}`mortensen_siam25` describes the fastest known Leg
 
 ## References
 
-```{bibliography} ../../references.bib
-:filter: docname in docnames
+```{bibliography}
 ```

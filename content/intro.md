@@ -139,7 +139,7 @@ often as possible in teaching and scientific computing. Lately I have become ver
 
   * 17/6 2019 [9th Kobe-Oslo workshop on numerical simulations of rocket-plasma interactions](https://www.mn.uio.no/fysikk/english/research/projects/4dspace/education/04_japan-norway.html) started in Kobe, Japan.
 
-  * 5/6 2019 [Theory and simulations of spherical and cylindrical Langmuir probes in non-Maxwellian plasmas](https://iopscience.iop.org/article/10.1088/1361-6587/ab27ff/meta) by Darian, Marholm, Mortensen and Miloch accepted for publication in Plasma Physics and Controlled Fusion.
+  * 5/6 2019 [Theory and simulations of spherical and cylindrical Langmuir probes in non-Maxwellian plasmas](https://doi.org/10.1088/1361-6587/ab27ff) by Darian, Marholm, Mortensen and Miloch accepted for publication in Plasma Physics and Controlled Fusion.
 
   * 30/5 2019 [Impact of Miniaturized Fixed-Bias Multi-Needle Langmuir Probes on CubeSats](https://ieeexplore.ieee.org/document/8734022) by Marholm, Darian, Marchand, Miloch and Mortensen accepted for publication in IEEE Transactions in Plasma Science.
 
@@ -187,7 +187,7 @@ often as possible in teaching and scientific computing. Lately I have become ver
 
   * 6/7 2018 Particles in UNstructured Cells [PUNC](https://github.com/puncproject/PUNC) now openly available at github
 
-  * 2/7 2018 [Dynamic ion shadows behind finite-sized objects in collisionless magnetized plasma flows](http://iopscience.iop.org/article/10.1088/1367-2630/aad066) accepted for publication by the New Journal of Physics
+  * 2/7 2018 [Dynamic ion shadows behind finite-sized objects in collisionless magnetized plasma flows](https://doi.org/10.1088/1367-2630/aad066) accepted for publication by the New Journal of Physics
 
   * 27/6 2018 [Preconditioning trace coupled 3d-1d systems using fractional Laplacian](https://arxiv.org/abs/1612.03574) accepted for publication by Numerical Methods for Partial Differential Equations
 

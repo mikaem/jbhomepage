@@ -1,0 +1,57 @@
+# Jupyter Book 2 configuration
+# See https://mystmd.org/guide/frontmatter for all available options
+version: 1
+
+project:
+  id: mikaem-jbhomepage
+  title: Professor Mikael Mortensen
+  copyright: "2026"
+  authors:
+    - name: Mikael Mortensen
+      affiliations:
+        - Department of Mathematics, University of Oslo
+  github: https://github.com/mikaem/jbhomepage
+
+  bibliography:
+    - references.bib
+
+  static_files:
+    - content/images/portrait_large.jpg
+
+  # Skip build artefacts and the environment when discovering content
+  exclude:
+    - _build/**
+    - .venv/**
+
+  toc:
+    - file: content/intro.md
+    - file: content/research/research.md
+    - file: content/cv.md
+    - file: content/contact.md
+    - title: Research
+      children:
+        - file: content/research/spectraldns.md
+        - file: content/research/biomedical.md
+        - file: content/research/cmc.md
+        - file: content/research/plasma.md
+        - file: content/research/numerical.md
+        - file: content/research/multiphase.md
+    - title: Resources
+      children:
+        - file: content/resources/codes.md
+    - title: Teaching
+      children:
+        - file: content/teaching/teaching.md
+        - file: content/teaching/japan.md
+        - file: content/teaching/students.md
+
+site:
+  template: book-theme
+  title: Professor Mikael Mortensen
+  options:
+    logo: content/images/portrait_large.jpg
+    logo_text: Mikael Mortensen
+    favicon: content/images/logo/favicon.ico
+    folders: true
+    hide_search: false
+    style: style/custom.css

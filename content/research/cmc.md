@@ -17,6 +17,5 @@ turbulence-chemistry models {cite}`de2005conditional,cha2006direct,mortensen2007
 
 ## References
 
-```{bibliography} ../../references.bib
-:filter: docname in docnames
+```{bibliography}
 ```
