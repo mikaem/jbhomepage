@@ -1,0 +1,46 @@
+/* User Provided Stylesheet */
+
+/*
+ * Custom styling for the book-theme, wired up via `site.options.style` in
+ * myst.yml. The whole file is inlined into /myst-theme.css at the site root,
+ * so relative url() paths resolve against the site root (and keep working
+ * when the site is served from a sub-path with BASE_URL).
+ */
+
+:root {
+  /* Width of the portrait in the left sidebar. */
+  --portrait-width: 11rem;
+  /* Intrinsic aspect ratio of content/images/portrait_large.jpg (472x591). */
+  --portrait-aspect: 472 / 591;
+}
+
+/*
+ * book-theme only shows the logo as a small image in the top navigation bar.
+ * Put the portrait back at the top of the left sidebar, the way it was in
+ * Jupyter Book 1. The file is published to the site root by the
+ * `project.static_files` entry in myst.yml.
+ */
+.myst-primary-sidebar-nav::before {
+  content: "";
+  display: block;
+  width: var(--portrait-width);
+  aspect-ratio: var(--portrait-aspect);
+  margin: 0 auto 1.5rem;
+  background-image: url("portrait_large.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 0.5rem;
+  box-shadow: 0 1px 3px rgb(0 0 0 / 0.2);
+}
+
+/*
+ * From the `xl` breakpoint up the sidebar is always on screen, so the small
+ * copy of the logo in the top bar is redundant. Below `xl` the sidebar is a
+ * drawer, and the navbar logo is the only portrait on screen -- keep it there.
+ */
+@media (min-width: 1280px) {
+  .myst-home-link-logo {
+    display: none;
+  }
+}

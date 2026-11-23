@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="http://localhost:3000/sitemap_style.xsl" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>http://localhost:3000</loc>
+  </url>
+  <url>
+    <loc>http://localhost:3000/content/research/research</loc>
+  </url>
+  <url>
+    <loc>http://localhost:3000/content/cv</loc>
+  </url>
+  <url>
+    <loc>http://localhost:3000/content/contact</loc>
+  </url>
+  <url>
+    <loc>http://localhost:3000/content/research/spectraldns</loc>
+  </url>
+  <url>
+    <loc>http://localhost:3000/content/research/biomedical</loc>
+  </url>
+  <url>
+    <loc>http://localhost:3000/content/research/cmc</loc>
+  </url>
+  <url>
+    <loc>http://localhost:3000/content/research/plasma</loc>
+  </url>
+  <url>
+    <loc>http://localhost:3000/content/research/numerical</loc>
+  </url>
+  <url>
+    <loc>http://localhost:3000/content/research/multiphase</loc>
+  </url>
+  <url>
+    <loc>http://localhost:3000/content/resources/codes</loc>
+  </url>
+  <url>
+    <loc>http://localhost:3000/content/teaching/teaching</loc>
+  </url>
+  <url>
+    <loc>http://localhost:3000/content/teaching/japan</loc>
+  </url>
+  <url>
+    <loc>http://localhost:3000/content/teaching/students</loc>
+  </url>
+</urlset>
